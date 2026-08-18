@@ -1,6 +1,5 @@
 packages:
   - 'packages/**/*'
-  - 'examples/**/*'
   - 'docs'
 
 # https://github.com/withastro/starlight/issues/3875

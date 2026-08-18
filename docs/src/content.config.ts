@@ -1,19 +1,10 @@
 import { defineCollection } from 'astro:content';
-import { z } from 'astro/zod';
-import { docsLoader, i18nLoader } from '@astrojs/starlight/loaders';
-import { docsSchema, i18nSchema } from '@astrojs/starlight/schema';
+import { glob } from 'astro/loaders';
+import { docsSchema } from '@astrojs/starlight/schema';
 
 export const collections = {
 	docs: defineCollection({
-		loader: docsLoader(),
+		loader: glob({ base: './src/content/guide', pattern: '**/*.{md,mdx}' }),
 		schema: docsSchema(),
-	}),
-	i18n: defineCollection({
-		loader: i18nLoader(),
-		schema: i18nSchema({
-			extend: z.object({
-				'component.preview': z.string().optional(),
-			}),
-		}),
 	}),
 };

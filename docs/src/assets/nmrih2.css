@@ -1,0 +1,48 @@
+:root {
+	--sl-color-accent-low: #26320d;
+	--sl-color-accent: #c9f15a;
+	--sl-color-accent-high: #edf9bd;
+	--sl-color-black: #07100d;
+	--sl-color-gray-6: #0e1a16;
+	--sl-color-gray-5: #16251f;
+	--sl-color-gray-4: #54645d;
+	--sl-color-gray-3: #9aa9a0;
+	--sl-color-gray-2: #d2dbd4;
+	--sl-color-gray-1: #f2f6f1;
+}
+
+:root[data-theme='light'] {
+	--sl-color-accent-low: #e6f4bb;
+	--sl-color-accent: #557300;
+	--sl-color-accent-high: #223000;
+	--sl-color-black: #f7faf4;
+	--sl-color-gray-6: #edf2e9;
+	--sl-color-gray-5: #dce5d8;
+	--sl-color-gray-4: #748078;
+	--sl-color-gray-3: #536057;
+	--sl-color-gray-2: #303b34;
+	--sl-color-gray-1: #15201a;
+}
+
+[data-has-hero] .page {
+	background:
+		radial-gradient(circle at 76% 4%, rgb(201 241 90 / 18%), transparent 30rem),
+		linear-gradient(135deg, rgb(10 27 21 / 82%), transparent 50rem);
+}
+
+[data-has-hero] header {
+	border-bottom-color: rgb(201 241 90 / 16%);
+	background: rgb(7 16 13 / 78%);
+	backdrop-filter: blur(12px);
+}
+
+.sl-markdown-content :is(h1, h2, h3) { letter-spacing: -0.025em; }
+.sl-markdown-content a { text-underline-offset: 0.18em; }
+
+.guide-callout {
+	margin: 2rem 0;
+	padding: 1rem 1.15rem;
+	border: 1px solid rgb(201 241 90 / 35%);
+	border-radius: 0.65rem;
+	background: rgb(201 241 90 / 8%);
+}
