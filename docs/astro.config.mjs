@@ -11,7 +11,10 @@ export default defineConfig({
 			description: 'Practical, up-to-date guides for No More Room in Hell 2.',
 			favicon: '/favicon.svg',
 			lastUpdated: false,
-			locales: { root: { label: 'English', lang: 'en' } },
+			locales: {
+				root: { label: 'English', lang: 'en' },
+				'zh-cn': { label: '简体中文', lang: 'zh-CN' },
+			},
 			social: [
 				{
 					icon: 'external',
@@ -24,11 +27,21 @@ export default defineConfig({
 				{ tag: 'meta', attrs: { property: 'og:site_name', content: 'NMRiH2 Guide' } },
 			],
 			customCss: ['./src/assets/nmrih2.css'],
+			components: { Head: './src/components/Head.astro' },
 			sidebar: [
-				{ label: 'Start Here', items: ['beginner-guide', 'infection', 'loadouts', 'skills'] },
-				{ label: 'Gear', items: ['weapons', 'weapon-attachments'] },
+				{
+					label: 'Start Here',
+					translations: { 'zh-cn': '从这里开始' },
+					items: ['beginner-guide', 'infection', 'loadouts', 'skills'],
+				},
+				{
+					label: 'Gear',
+					translations: { 'zh-cn': '装备' },
+					items: ['weapons', 'weapon-attachments'],
+				},
 				{
 					label: 'Maps',
+					translations: { 'zh-cn': '地图' },
 					items: [
 						'maps',
 						'maps/raven-rock',

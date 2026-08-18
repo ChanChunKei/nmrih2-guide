@@ -1,0 +1,10 @@
+{
+  "status": "recommended",
+  "recommendation": {
+    "name": "No More Room in Hell 2",
+    "platform_id": "steam:292000",
+    "developer": "Torn Banner Studios",
+    "official_url": "https://www.nmrih2.com/"
+  },
+  "run": { "market": "global English", "window_days": 30 }
+}

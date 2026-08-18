@@ -1,0 +1,31 @@
+{
+  "status": "partial",
+  "game": {
+    "name": "No More Room in Hell 2",
+    "platform_id": "steam:292000",
+    "official_url": "https://www.nmrih2.com/"
+  },
+  "market": "global English",
+  "window_days": 30,
+  "warnings": ["Map-specific route claims require additional independent walkthrough evidence before publication."],
+  "launch_pages": [
+    { "keyword": "No More Room in Hell 2 beginner guide", "slug": "beginner-guide", "category": "guide", "intent": "learn the match loop", "page_type": "guide", "priority": 1 },
+    { "keyword": "No More Room in Hell 2 infection guide", "slug": "infection", "category": "guide", "intent": "manage infection safely", "page_type": "guide", "priority": 1 },
+    { "keyword": "No More Room in Hell 2 weapons guide", "slug": "weapons", "category": "items", "intent": "choose and manage weapons", "page_type": "guide", "priority": 1 },
+    { "keyword": "No More Room in Hell 2 weapon attachments", "slug": "weapon-attachments", "category": "items", "intent": "understand attachment slots", "page_type": "guide", "priority": 1 },
+    { "keyword": "No More Room in Hell 2 skills guide", "slug": "skills", "category": "builds", "intent": "choose skills by role", "page_type": "guide", "priority": 1 },
+    { "keyword": "No More Room in Hell 2 loadouts", "slug": "loadouts", "category": "builds", "intent": "plan a responder loadout", "page_type": "guide", "priority": 1 },
+    { "keyword": "No More Room in Hell 2 maps guide", "slug": "maps", "category": "locations", "intent": "choose a mode and map", "page_type": "hub", "priority": 1 }
+  ],
+  "backlog": [
+    { "keyword": "NMRiH2 Raven Rock guide", "slug": "maps/raven-rock", "category": "locations", "intent": "prepare for Raven Rock", "page_type": "guide", "priority": 2 },
+    { "keyword": "NMRiH2 Power Plant guide", "slug": "maps/power-plant", "category": "locations", "intent": "prepare for Power Plant", "page_type": "guide", "priority": 2 },
+    { "keyword": "NMRiH2 Pottsville guide", "slug": "maps/pottsville", "category": "locations", "intent": "prepare for Pottsville", "page_type": "guide", "priority": 2 },
+    { "keyword": "NMRiH2 Lewiston guide", "slug": "maps/lewiston", "category": "locations", "intent": "prepare for Lewiston", "page_type": "guide", "priority": 2 },
+    { "keyword": "NMRiH2 Broadway guide", "slug": "maps/broadway", "category": "locations", "intent": "prepare for Broadway", "page_type": "guide", "priority": 2 },
+    { "keyword": "NMRiH2 Beaulieu Hospital guide", "slug": "maps/beaulieu-hospital", "category": "locations", "intent": "prepare for Beaulieu Hospital", "page_type": "guide", "priority": 2 },
+    { "keyword": "NMRiH2 Flooded survival guide", "slug": "maps/flooded", "category": "locations", "intent": "prepare for Flooded", "page_type": "guide", "priority": 2 },
+    { "keyword": "NMRiH2 Lighthouse survival guide", "slug": "maps/lighthouse", "category": "locations", "intent": "prepare for Lighthouse", "page_type": "guide", "priority": 2 },
+    { "keyword": "NMRiH2 Night of the Living Dead survival guide", "slug": "maps/night-of-the-living-dead", "category": "locations", "intent": "prepare for Night of the Living Dead", "page_type": "guide", "priority": 2 }
+  ]
+}

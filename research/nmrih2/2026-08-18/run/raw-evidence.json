@@ -1,0 +1,675 @@
+{
+  "schema_version": 1,
+  "game": {
+    "name": "No More Room in Hell 2",
+    "platform_id": "steam:292000",
+    "developer": "Torn Banner Studios",
+    "official_url": "https://www.nmrih2.com/"
+  },
+  "run": {
+    "market": "global English",
+    "window_days": 30,
+    "created_at": "2026-08-18T14:16:54Z",
+    "selection_input": "research\\nmrih2\\2026-08-18\\selection-result.json",
+    "matrix_input": "research\\nmrih2\\2026-08-18\\page-matrix.json",
+    "upstream_matrix_status": "partial",
+    "upstream_warnings": [
+      "Map-specific route claims require additional independent walkthrough evidence before publication."
+    ]
+  },
+  "homepage": {
+    "metadata": {
+      "title": "NMRiH2 Guide: Objective, Survival & Extraction Help",
+      "description": "Practical No More Room in Hell 2 guides for 1.0: learn Objective and Survival missions, infection, weapons, skills, maps, extraction and team play.",
+      "keywords": "NMRiH2 guide, No More Room in Hell 2 maps, Survival, Objective, extraction"
+    },
+    "hero": {
+      "eyebrow": "Armageddon 1.0 guide",
+      "title": "Survive together. Extract with a plan.",
+      "description": "Current, sourced help for No More Room in Hell 2.",
+      "stats": [
+        {
+          "value": "3",
+          "fact_id": "fact:survival-maps"
+        }
+      ],
+      "ctas": [
+        "Beginner Guide",
+        "Maps",
+        "Survival"
+      ],
+      "video_label": "Official trailer"
+    },
+    "start": {
+      "cards": [
+        {
+          "title": "Beginner Guide",
+          "page_slug": "beginner-guide"
+        },
+        {
+          "title": "Infection",
+          "page_slug": "infection"
+        },
+        {
+          "title": "Weapons",
+          "page_slug": "weapons"
+        },
+        {
+          "title": "Maps",
+          "page_slug": "maps"
+        }
+      ]
+    },
+    "about_game": "Objective and Survival are distinct mission types with different extraction pressures.",
+    "final_cta": "Start with the match loop.",
+    "footer": "Unofficial guide; verify live tooltips after patches.",
+    "official_links": [
+      {
+        "kind": "official_site",
+        "url": "https://www.nmrih2.com/",
+        "source_id": "source:official-launch"
+      },
+      {
+        "kind": "platform",
+        "url": "https://store.steampowered.com/app/292000/No_More_Room_in_Hell_2/",
+        "source_id": "source:steam"
+      },
+      {
+        "kind": "official_video",
+        "url": "https://www.youtube.com/watch?v=jkuwzUd9lGs",
+        "source_id": "source:official-launch"
+      }
+    ],
+    "fact_ids": [
+      "fact:launch",
+      "fact:mission-types"
+    ]
+  },
+  "pages": [
+    {
+      "slug": "beginner-guide",
+      "keyword": "No More Room in Hell 2 beginner guide",
+      "category": "guide",
+      "group": "launch",
+      "direct_answer_notes": "Use the tutorial, choose the current mission type, keep the squad readable, and treat extraction as part of the objective.",
+      "fact_ids": [
+        "fact:mission-types",
+        "fact:extraction"
+      ],
+      "source_ids": [
+        "source:official-launch"
+      ],
+      "outline": [
+        "Match loop",
+        "Squad jobs",
+        "Extraction decision"
+      ],
+      "media_ids": [],
+      "gaps": [],
+      "conflicts": []
+    },
+    {
+      "slug": "infection",
+      "keyword": "No More Room in Hell 2 infection guide",
+      "category": "guide",
+      "group": "launch",
+      "direct_answer_notes": "Call infection early, count pill doses, and route toward extraction before symptoms force a crisis.",
+      "fact_ids": [
+        "fact:infection",
+        "fact:extraction"
+      ],
+      "source_ids": [
+        "source:official-launch"
+      ],
+      "outline": [
+        "Signs and callout",
+        "Treatment decision",
+        "Extraction"
+      ],
+      "media_ids": [],
+      "gaps": [],
+      "conflicts": []
+    },
+    {
+      "slug": "weapons",
+      "keyword": "No More Room in Hell 2 weapons guide",
+      "category": "items",
+      "group": "launch",
+      "direct_answer_notes": "Choose a weapon for a task and manage its ammunition and reload windows; do not publish a permanent tier list.",
+      "fact_ids": [
+        "fact:skills-1-0"
+      ],
+      "source_ids": [
+        "source:official-1-0"
+      ],
+      "outline": [
+        "Weapon roles",
+        "Ammo discipline",
+        "Melee pressure"
+      ],
+      "media_ids": [],
+      "gaps": [],
+      "conflicts": []
+    },
+    {
+      "slug": "weapon-attachments",
+      "keyword": "No More Room in Hell 2 weapon attachments",
+      "category": "items",
+      "group": "launch",
+      "direct_answer_notes": "Pick only compatible sight, rail and muzzle slots that solve a repeatable team need.",
+      "fact_ids": [
+        "fact:attachments"
+      ],
+      "source_ids": [
+        "source:official-attachments"
+      ],
+      "outline": [
+        "Slots",
+        "Selection checklist",
+        "Version note"
+      ],
+      "media_ids": [],
+      "gaps": [],
+      "conflicts": []
+    },
+    {
+      "slug": "skills",
+      "keyword": "No More Room in Hell 2 skills guide",
+      "category": "builds",
+      "group": "launch",
+      "direct_answer_notes": "Use the live skill screen for effects and requirements; the 1.0 pool changed.",
+      "fact_ids": [
+        "fact:skills-1-0"
+      ],
+      "source_ids": [
+        "source:official-1-0"
+      ],
+      "outline": [
+        "Current change log",
+        "Role selection",
+        "Live verification"
+      ],
+      "media_ids": [],
+      "gaps": [],
+      "conflicts": []
+    },
+    {
+      "slug": "loadouts",
+      "keyword": "No More Room in Hell 2 loadouts",
+      "category": "builds",
+      "group": "launch",
+      "direct_answer_notes": "Assign each loadout slot a clear job and account for permadeath protection as a tradeoff.",
+      "fact_ids": [
+        "fact:rescue-beacon"
+      ],
+      "source_ids": [
+        "source:official-1-0"
+      ],
+      "outline": [
+        "Role templates",
+        "Slot budget",
+        "Risk decision"
+      ],
+      "media_ids": [],
+      "gaps": [],
+      "conflicts": []
+    },
+    {
+      "slug": "maps",
+      "keyword": "No More Room in Hell 2 maps guide",
+      "category": "locations",
+      "group": "launch",
+      "direct_answer_notes": "Choose Objective for staged CRC tasks or Survival for three speaker-defense waves.",
+      "fact_ids": [
+        "fact:mission-types",
+        "fact:survival-loop",
+        "fact:survival-maps"
+      ],
+      "source_ids": [
+        "source:official-launch",
+        "source:official-1-0"
+      ],
+      "outline": [
+        "Mode comparison",
+        "Map selection",
+        "Pre-deploy checklist"
+      ],
+      "media_ids": [],
+      "gaps": [],
+      "conflicts": []
+    },
+    {
+      "slug": "maps/raven-rock",
+      "keyword": "NMRiH2 Raven Rock guide",
+      "category": "locations",
+      "group": "backlog",
+      "direct_answer_notes": "Raven Rock is the 1.0 Objective mission at an underground military bunker; use objective-first discipline while route research is verified.",
+      "fact_ids": [
+        "fact:survival-maps"
+      ],
+      "source_ids": [
+        "source:official-raven-rock"
+      ],
+      "outline": [
+        "What is confirmed",
+        "Objective checklist",
+        "Research gap"
+      ],
+      "media_ids": [],
+      "gaps": [
+        "Two current independent route walkthroughs are required before publishing point-by-point routing."
+      ],
+      "conflicts": []
+    },
+    {
+      "slug": "maps/power-plant",
+      "keyword": "NMRiH2 Power Plant guide",
+      "category": "locations",
+      "group": "backlog",
+      "direct_answer_notes": "Power Plant has objective variations; use the updated map-change notes rather than pre-1.0 routes.",
+      "fact_ids": [
+        "fact:map-changes"
+      ],
+      "source_ids": [
+        "source:official-1-0"
+      ],
+      "outline": [
+        "1.0 changes",
+        "Objective checklist",
+        "Research gap"
+      ],
+      "media_ids": [],
+      "gaps": [
+        "Two current independent route walkthroughs are required before publishing point-by-point routing."
+      ],
+      "conflicts": []
+    },
+    {
+      "slug": "maps/pottsville",
+      "keyword": "NMRiH2 Pottsville guide",
+      "category": "locations",
+      "group": "backlog",
+      "direct_answer_notes": "Pottsville's 1.0 notes add objective and extraction changes; keep the squad together through holdout beats.",
+      "fact_ids": [
+        "fact:map-changes"
+      ],
+      "source_ids": [
+        "source:official-1-0"
+      ],
+      "outline": [
+        "1.0 changes",
+        "Holdout checklist",
+        "Research gap"
+      ],
+      "media_ids": [],
+      "gaps": [
+        "Two current independent route walkthroughs are required before publishing point-by-point routing."
+      ],
+      "conflicts": []
+    },
+    {
+      "slug": "maps/lewiston",
+      "keyword": "NMRiH2 Lewiston guide",
+      "category": "locations",
+      "group": "backlog",
+      "direct_answer_notes": "Lewiston's 1.0 route can require the chapel Bio-Scanner and powered finale gates.",
+      "fact_ids": [
+        "fact:map-changes"
+      ],
+      "source_ids": [
+        "source:official-1-0"
+      ],
+      "outline": [
+        "1.0 changes",
+        "Objective checklist",
+        "Research gap"
+      ],
+      "media_ids": [],
+      "gaps": [
+        "Two current independent route walkthroughs are required before publishing point-by-point routing."
+      ],
+      "conflicts": []
+    },
+    {
+      "slug": "maps/broadway",
+      "keyword": "NMRiH2 Broadway guide",
+      "category": "locations",
+      "group": "backlog",
+      "direct_answer_notes": "Broadway's 1.0 flow changed around the Diner, train platform, Courthouse and theatre.",
+      "fact_ids": [
+        "fact:map-changes"
+      ],
+      "source_ids": [
+        "source:official-1-0"
+      ],
+      "outline": [
+        "1.0 changes",
+        "Push checklist",
+        "Research gap"
+      ],
+      "media_ids": [],
+      "gaps": [
+        "Two current independent route walkthroughs are required before publishing point-by-point routing."
+      ],
+      "conflicts": []
+    },
+    {
+      "slug": "maps/beaulieu-hospital",
+      "keyword": "NMRiH2 Beaulieu Hospital guide",
+      "category": "locations",
+      "group": "backlog",
+      "direct_answer_notes": "Hospital ventilation-item placement and exploit fixes changed in 1.0; do not rely on old shortcuts.",
+      "fact_ids": [
+        "fact:map-changes"
+      ],
+      "source_ids": [
+        "source:official-1-0"
+      ],
+      "outline": [
+        "1.0 changes",
+        "Room-entry checklist",
+        "Research gap"
+      ],
+      "media_ids": [],
+      "gaps": [
+        "Two current independent route walkthroughs are required before publishing point-by-point routing."
+      ],
+      "conflicts": []
+    },
+    {
+      "slug": "maps/flooded",
+      "keyword": "NMRiH2 Flooded survival guide",
+      "category": "locations",
+      "group": "backlog",
+      "direct_answer_notes": "Flooded is a storm-hit industrial Survival map; plan around the speaker loop and water-covered ground.",
+      "fact_ids": [
+        "fact:survival-loop",
+        "fact:survival-maps"
+      ],
+      "source_ids": [
+        "source:official-1-0"
+      ],
+      "outline": [
+        "Mode loop",
+        "Defense checklist",
+        "Extraction"
+      ],
+      "media_ids": [],
+      "gaps": [
+        "Two current independent route walkthroughs are required before publishing fixed hold points."
+      ],
+      "conflicts": []
+    },
+    {
+      "slug": "maps/lighthouse",
+      "keyword": "NMRiH2 Lighthouse survival guide",
+      "category": "locations",
+      "group": "backlog",
+      "direct_answer_notes": "Lighthouse is a cliffside Survival map with tight interior spaces; protect rotation room before the wave.",
+      "fact_ids": [
+        "fact:survival-loop",
+        "fact:survival-maps"
+      ],
+      "source_ids": [
+        "source:official-1-0"
+      ],
+      "outline": [
+        "Mode loop",
+        "Defense checklist",
+        "Extraction"
+      ],
+      "media_ids": [],
+      "gaps": [
+        "Two current independent route walkthroughs are required before publishing fixed hold points."
+      ],
+      "conflicts": []
+    },
+    {
+      "slug": "maps/night-of-the-living-dead",
+      "keyword": "NMRiH2 Night of the Living Dead survival guide",
+      "category": "locations",
+      "group": "backlog",
+      "direct_answer_notes": "Night of the Living Dead combines a three-floor farmhouse, guest house and barn; select the defense plan that keeps a retreat lane.",
+      "fact_ids": [
+        "fact:survival-loop",
+        "fact:notld-layout"
+      ],
+      "source_ids": [
+        "source:official-1-0",
+        "source:official-survival"
+      ],
+      "outline": [
+        "Map layout",
+        "Defense checklist",
+        "Extraction"
+      ],
+      "media_ids": [],
+      "gaps": [
+        "Two current independent route walkthroughs are required before publishing a per-speaker optimum."
+      ],
+      "conflicts": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:official-1-0",
+      "url": "https://www.nmrih2.com/2026/08/10/armageddon-1-0-update-notes/",
+      "title": "Update Notes: Armageddon (1.0)",
+      "publisher": "Torn Banner Studios",
+      "source_type": "official_update",
+      "official": true,
+      "access_status": "reachable",
+      "checked_at": "2026-08-18T13:50:00Z"
+    },
+    {
+      "id": "source:official-launch",
+      "url": "https://www.nmrih2.com/2026/08/11/welcome-to-no-more-room-in-hell-2/",
+      "title": "Welcome to No More Room in Hell 2!",
+      "publisher": "Torn Banner Studios",
+      "source_type": "official_update",
+      "official": true,
+      "access_status": "reachable",
+      "checked_at": "2026-08-18T13:50:00Z"
+    },
+    {
+      "id": "source:official-survival",
+      "url": "https://www.nmrih2.com/2026/07/23/road-to-1-0-survival-night-of-the-living-dead/",
+      "title": "Road to 1.0: Survival & Night of the Living Dead",
+      "publisher": "Torn Banner Studios",
+      "source_type": "official_update",
+      "official": true,
+      "access_status": "reachable",
+      "checked_at": "2026-08-18T13:50:00Z"
+    },
+    {
+      "id": "source:official-raven-rock",
+      "url": "https://www.nmrih2.com/2026/07/28/road-to-1-0-release-date-raven-rock/",
+      "title": "Road to 1.0: Release Date & Raven Rock",
+      "publisher": "Torn Banner Studios",
+      "source_type": "official_update",
+      "official": true,
+      "access_status": "reachable",
+      "checked_at": "2026-08-18T13:50:00Z"
+    },
+    {
+      "id": "source:official-attachments",
+      "url": "https://www.nmrih2.com/2025/02/18/our-february-nightmare-update-is-live/",
+      "title": "Our February NIGHTMARE Update is LIVE!",
+      "publisher": "Torn Banner Studios",
+      "source_type": "official_update",
+      "official": true,
+      "access_status": "reachable",
+      "checked_at": "2026-08-18T13:50:00Z"
+    },
+    {
+      "id": "source:steam",
+      "url": "https://store.steampowered.com/app/292000/No_More_Room_in_Hell_2/",
+      "title": "No More Room in Hell 2 on Steam",
+      "publisher": "Valve / Torn Banner Studios",
+      "source_type": "platform",
+      "official": true,
+      "access_status": "reachable",
+      "checked_at": "2026-08-18T13:50:00Z"
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact:launch",
+      "statement": "Armageddon 1.0 launched the game out of Early Access on August 11, 2026.",
+      "claim_type": "fact",
+      "verification_rule": "official_single",
+      "freshness_class": "stable",
+      "source_ids": [
+        "source:official-launch"
+      ],
+      "checked_at": "2026-08-18T13:50:00Z",
+      "conflict": false
+    },
+    {
+      "id": "fact:mission-types",
+      "statement": "Objective missions use large maps and linear tasks; Survival missions defend speaker systems through up to three waves.",
+      "claim_type": "fact",
+      "verification_rule": "official_single",
+      "freshness_class": "stable",
+      "source_ids": [
+        "source:official-launch"
+      ],
+      "checked_at": "2026-08-18T13:50:00Z",
+      "conflict": false
+    },
+    {
+      "id": "fact:infection",
+      "statement": "Phalanx pills delay infection and have three doses per bottle; one experimental gene therapy can spawn per match and cures infection with immunity.",
+      "claim_type": "fact",
+      "verification_rule": "official_single",
+      "freshness_class": "stable",
+      "source_ids": [
+        "source:official-launch"
+      ],
+      "checked_at": "2026-08-18T13:50:00Z",
+      "conflict": false
+    },
+    {
+      "id": "fact:extraction",
+      "statement": "Early extraction preserves a Responder but grants only a small Credit share and no character progression; final extraction awards the team-supply result.",
+      "claim_type": "fact",
+      "verification_rule": "official_single",
+      "freshness_class": "stable",
+      "source_ids": [
+        "source:official-launch"
+      ],
+      "checked_at": "2026-08-18T13:50:00Z",
+      "conflict": false
+    },
+    {
+      "id": "fact:survival-loop",
+      "statement": "Survival gives preparation time and a supply drop, then five-minute speaker-defense waves; supply drops follow successful waves, helicopter extraction follows wave three, and early extraction opens after two failed waves.",
+      "claim_type": "fact",
+      "verification_rule": "official_single",
+      "freshness_class": "stable",
+      "source_ids": [
+        "source:official-1-0"
+      ],
+      "checked_at": "2026-08-18T13:50:00Z",
+      "conflict": false
+    },
+    {
+      "id": "fact:rescue-beacon",
+      "statement": "The Rescue Beacon uses a loadout slot, is consumable, can be bought with Credits or Merits, and prevents the next loss where permadeath is enabled.",
+      "claim_type": "fact",
+      "verification_rule": "official_single",
+      "freshness_class": "stable",
+      "source_ids": [
+        "source:official-1-0"
+      ],
+      "checked_at": "2026-08-18T13:50:00Z",
+      "conflict": false
+    },
+    {
+      "id": "fact:skills-1-0",
+      "statement": "Armageddon 1.0 added Handgun Reloading, Rifle Reloading and Shotgun Reloading, and removed Averaging, Guts and Teddy Bear.",
+      "claim_type": "fact",
+      "verification_rule": "official_single",
+      "freshness_class": "version_30d",
+      "source_ids": [
+        "source:official-1-0"
+      ],
+      "checked_at": "2026-08-18T13:50:00Z",
+      "conflict": false
+    },
+    {
+      "id": "fact:attachments",
+      "statement": "Firearms use sight, rail and muzzle attachment slots; compatibility depends on each firearm's slots.",
+      "claim_type": "fact",
+      "verification_rule": "official_single",
+      "freshness_class": "stable",
+      "source_ids": [
+        "source:official-attachments"
+      ],
+      "checked_at": "2026-08-18T13:50:00Z",
+      "conflict": false
+    },
+    {
+      "id": "fact:map-changes",
+      "statement": "Armageddon changed objectives or flow in Beaulieu Hospital, Power Plant, Lewiston, Broadway and Pottsville.",
+      "claim_type": "fact",
+      "verification_rule": "official_single",
+      "freshness_class": "version_30d",
+      "source_ids": [
+        "source:official-1-0"
+      ],
+      "checked_at": "2026-08-18T13:50:00Z",
+      "conflict": false
+    },
+    {
+      "id": "fact:survival-maps",
+      "statement": "Flooded, Lighthouse and Night of the Living Dead are the three Armageddon Survival maps; Raven Rock is the sixth Objective map.",
+      "claim_type": "fact",
+      "verification_rule": "official_single",
+      "freshness_class": "version_30d",
+      "source_ids": [
+        "source:official-1-0",
+        "source:official-raven-rock"
+      ],
+      "checked_at": "2026-08-18T13:50:00Z",
+      "conflict": false
+    },
+    {
+      "id": "fact:notld-layout",
+      "statement": "Night of the Living Dead uses a three-floor farmhouse plus guest house and barn, with traps that require fuel and boards that shape approaches.",
+      "claim_type": "fact",
+      "verification_rule": "official_single",
+      "freshness_class": "stable",
+      "source_ids": [
+        "source:official-survival"
+      ],
+      "checked_at": "2026-08-18T13:50:00Z",
+      "conflict": false
+    }
+  ],
+  "locales": [
+    {
+      "code": "en",
+      "name": "English",
+      "priority": 1,
+      "localized_topic": "No More Room in Hell 2",
+      "source_ids": []
+    }
+  ],
+  "brand": {
+    "default_mode": "dark",
+    "visual_description": "Dark survival field manual with a high-visibility lime accent.",
+    "light": {
+      "nav_theme": "88 30% 15%",
+      "nav_theme_light": "88 65% 88%"
+    },
+    "dark": {
+      "nav_theme": "88 30% 15%",
+      "nav_theme_light": "88 65% 88%"
+    },
+    "favicon": {
+      "prompt": "A minimal lime emergency beacon star on a deep forest-black field, no letters or game logo.",
+      "status": "partial"
+    }
+  }
+}

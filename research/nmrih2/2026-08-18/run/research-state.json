@@ -1,0 +1,313 @@
+{
+  "schema_version": 1,
+  "game": {
+    "name": "No More Room in Hell 2",
+    "platform_id": "steam:292000",
+    "developer": "Torn Banner Studios",
+    "official_url": "https://www.nmrih2.com/"
+  },
+  "run": {
+    "market": "global English",
+    "window_days": 30,
+    "created_at": "2026-08-18T14:16:54Z",
+    "selection_input": "research\\nmrih2\\2026-08-18\\selection-result.json",
+    "matrix_input": "research\\nmrih2\\2026-08-18\\page-matrix.json",
+    "upstream_matrix_status": "partial",
+    "upstream_warnings": [
+      "Map-specific route claims require additional independent walkthrough evidence before publication."
+    ]
+  },
+  "homepage": {
+    "task_id": "homepage",
+    "kind": "homepage",
+    "status": "not_attempted",
+    "required_topics": [
+      "developer",
+      "platform",
+      "genre",
+      "release date",
+      "core gameplay",
+      "latest update",
+      "official communities",
+      "official video",
+      "SEO",
+      "brand",
+      "locales"
+    ],
+    "checkpoints": []
+  },
+  "pages": [
+    {
+      "task_id": "page:beginner-guide",
+      "kind": "page",
+      "group": "launch",
+      "status": "not_attempted",
+      "slug": "beginner-guide",
+      "keyword": "No More Room in Hell 2 beginner guide",
+      "category": "guide",
+      "intent": "learn the match loop",
+      "page_type": "guide",
+      "priority": 1,
+      "required_sources": [
+        "official facts where available",
+        "two independent current sources"
+      ],
+      "checkpoints": []
+    },
+    {
+      "task_id": "page:infection",
+      "kind": "page",
+      "group": "launch",
+      "status": "not_attempted",
+      "slug": "infection",
+      "keyword": "No More Room in Hell 2 infection guide",
+      "category": "guide",
+      "intent": "manage infection safely",
+      "page_type": "guide",
+      "priority": 1,
+      "required_sources": [
+        "official facts where available",
+        "two independent current sources"
+      ],
+      "checkpoints": []
+    },
+    {
+      "task_id": "page:weapons",
+      "kind": "page",
+      "group": "launch",
+      "status": "not_attempted",
+      "slug": "weapons",
+      "keyword": "No More Room in Hell 2 weapons guide",
+      "category": "items",
+      "intent": "choose and manage weapons",
+      "page_type": "guide",
+      "priority": 1,
+      "required_sources": [
+        "official mechanics where available",
+        "two current guide sources"
+      ],
+      "checkpoints": []
+    },
+    {
+      "task_id": "page:weapon-attachments",
+      "kind": "page",
+      "group": "launch",
+      "status": "not_attempted",
+      "slug": "weapon-attachments",
+      "keyword": "No More Room in Hell 2 weapon attachments",
+      "category": "items",
+      "intent": "understand attachment slots",
+      "page_type": "guide",
+      "priority": 1,
+      "required_sources": [
+        "official mechanics where available",
+        "two current guide sources"
+      ],
+      "checkpoints": []
+    },
+    {
+      "task_id": "page:skills",
+      "kind": "page",
+      "group": "launch",
+      "status": "not_attempted",
+      "slug": "skills",
+      "keyword": "No More Room in Hell 2 skills guide",
+      "category": "builds",
+      "intent": "choose skills by role",
+      "page_type": "guide",
+      "priority": 1,
+      "required_sources": [
+        "official mechanics",
+        "two current build sources"
+      ],
+      "checkpoints": []
+    },
+    {
+      "task_id": "page:loadouts",
+      "kind": "page",
+      "group": "launch",
+      "status": "not_attempted",
+      "slug": "loadouts",
+      "keyword": "No More Room in Hell 2 loadouts",
+      "category": "builds",
+      "intent": "plan a responder loadout",
+      "page_type": "guide",
+      "priority": 1,
+      "required_sources": [
+        "official mechanics",
+        "two current build sources"
+      ],
+      "checkpoints": []
+    },
+    {
+      "task_id": "page:maps",
+      "kind": "page",
+      "group": "launch",
+      "status": "not_attempted",
+      "slug": "maps",
+      "keyword": "No More Room in Hell 2 maps guide",
+      "category": "locations",
+      "intent": "choose a mode and map",
+      "page_type": "hub",
+      "priority": 1,
+      "required_sources": [
+        "official mechanics where available",
+        "two guide or walkthrough sources"
+      ],
+      "checkpoints": []
+    },
+    {
+      "task_id": "page:maps/raven-rock",
+      "kind": "page",
+      "group": "backlog",
+      "status": "not_attempted",
+      "slug": "maps/raven-rock",
+      "keyword": "NMRiH2 Raven Rock guide",
+      "category": "locations",
+      "intent": "prepare for Raven Rock",
+      "page_type": "guide",
+      "priority": 2,
+      "required_sources": [
+        "official mechanics where available",
+        "two guide or walkthrough sources"
+      ],
+      "checkpoints": []
+    },
+    {
+      "task_id": "page:maps/power-plant",
+      "kind": "page",
+      "group": "backlog",
+      "status": "not_attempted",
+      "slug": "maps/power-plant",
+      "keyword": "NMRiH2 Power Plant guide",
+      "category": "locations",
+      "intent": "prepare for Power Plant",
+      "page_type": "guide",
+      "priority": 2,
+      "required_sources": [
+        "official mechanics where available",
+        "two guide or walkthrough sources"
+      ],
+      "checkpoints": []
+    },
+    {
+      "task_id": "page:maps/pottsville",
+      "kind": "page",
+      "group": "backlog",
+      "status": "not_attempted",
+      "slug": "maps/pottsville",
+      "keyword": "NMRiH2 Pottsville guide",
+      "category": "locations",
+      "intent": "prepare for Pottsville",
+      "page_type": "guide",
+      "priority": 2,
+      "required_sources": [
+        "official mechanics where available",
+        "two guide or walkthrough sources"
+      ],
+      "checkpoints": []
+    },
+    {
+      "task_id": "page:maps/lewiston",
+      "kind": "page",
+      "group": "backlog",
+      "status": "not_attempted",
+      "slug": "maps/lewiston",
+      "keyword": "NMRiH2 Lewiston guide",
+      "category": "locations",
+      "intent": "prepare for Lewiston",
+      "page_type": "guide",
+      "priority": 2,
+      "required_sources": [
+        "official mechanics where available",
+        "two guide or walkthrough sources"
+      ],
+      "checkpoints": []
+    },
+    {
+      "task_id": "page:maps/broadway",
+      "kind": "page",
+      "group": "backlog",
+      "status": "not_attempted",
+      "slug": "maps/broadway",
+      "keyword": "NMRiH2 Broadway guide",
+      "category": "locations",
+      "intent": "prepare for Broadway",
+      "page_type": "guide",
+      "priority": 2,
+      "required_sources": [
+        "official mechanics where available",
+        "two guide or walkthrough sources"
+      ],
+      "checkpoints": []
+    },
+    {
+      "task_id": "page:maps/beaulieu-hospital",
+      "kind": "page",
+      "group": "backlog",
+      "status": "not_attempted",
+      "slug": "maps/beaulieu-hospital",
+      "keyword": "NMRiH2 Beaulieu Hospital guide",
+      "category": "locations",
+      "intent": "prepare for Beaulieu Hospital",
+      "page_type": "guide",
+      "priority": 2,
+      "required_sources": [
+        "official mechanics where available",
+        "two guide or walkthrough sources"
+      ],
+      "checkpoints": []
+    },
+    {
+      "task_id": "page:maps/flooded",
+      "kind": "page",
+      "group": "backlog",
+      "status": "not_attempted",
+      "slug": "maps/flooded",
+      "keyword": "NMRiH2 Flooded survival guide",
+      "category": "locations",
+      "intent": "prepare for Flooded",
+      "page_type": "guide",
+      "priority": 2,
+      "required_sources": [
+        "official mechanics where available",
+        "two guide or walkthrough sources"
+      ],
+      "checkpoints": []
+    },
+    {
+      "task_id": "page:maps/lighthouse",
+      "kind": "page",
+      "group": "backlog",
+      "status": "not_attempted",
+      "slug": "maps/lighthouse",
+      "keyword": "NMRiH2 Lighthouse survival guide",
+      "category": "locations",
+      "intent": "prepare for Lighthouse",
+      "page_type": "guide",
+      "priority": 2,
+      "required_sources": [
+        "official mechanics where available",
+        "two guide or walkthrough sources"
+      ],
+      "checkpoints": []
+    },
+    {
+      "task_id": "page:maps/night-of-the-living-dead",
+      "kind": "page",
+      "group": "backlog",
+      "status": "not_attempted",
+      "slug": "maps/night-of-the-living-dead",
+      "keyword": "NMRiH2 Night of the Living Dead survival guide",
+      "category": "locations",
+      "intent": "prepare for Night of the Living Dead",
+      "page_type": "guide",
+      "priority": 2,
+      "required_sources": [
+        "official mechanics where available",
+        "two guide or walkthrough sources"
+      ],
+      "checkpoints": []
+    }
+  ]
+}
