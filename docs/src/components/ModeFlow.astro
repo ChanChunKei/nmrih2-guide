@@ -1,0 +1,96 @@
+<figure class="mode-flow" aria-labelledby="mode-flow-title">
+	<figcaption id="mode-flow-title">
+		<strong>Choose your match plan.</strong> Objective and Survival reward different decisions before the squad moves.
+	</figcaption>
+	<div class="mode-flow-grid">
+		<section class="mode-flow-card" aria-labelledby="objective-flow-title">
+			<h3 id="objective-flow-title">Objective</h3>
+			<ol>
+				<li><strong>Deploy</strong><span>Regroup, identify the CRC task, and assign its carrier or interactor.</span></li>
+				<li><strong>Advance the objective</strong><span>Protect the active player and reset supplies after loud encounters.</span></li>
+				<li><strong>Extract</strong><span>Leave after the task chain, or end optional detours when the route collapses.</span></li>
+			</ol>
+		</section>
+		<section class="mode-flow-card" aria-labelledby="survival-flow-title">
+			<h3 id="survival-flow-title">Survival</h3>
+			<ol>
+				<li><strong>Prepare the speaker</strong><span>Choose lanes, rotation space, supplies, and defensive options.</span></li>
+				<li><strong>Defend three waves</strong><span>Use each post-wave reset to cover the team’s next weak point.</span></li>
+				<li><strong>Take the helicopter</strong><span>After the third wave, extract together; early extraction opens after two failed waves.</span></li>
+			</ol>
+		</section>
+	</div>
+</figure>
+
+<style>
+	.mode-flow {
+		margin: 2rem 0;
+		padding: clamp(1rem, 0.5rem + 2vw, 1.5rem);
+		border: 1px solid var(--sl-color-gray-5);
+		border-radius: 0.75rem;
+		background: linear-gradient(135deg, rgb(201 241 90 / 12%), transparent 55%), var(--sl-color-bg-nav);
+		color: var(--sl-color-text);
+	}
+
+	figcaption { color: var(--sl-color-text); }
+
+	.mode-flow-grid {
+		display: grid;
+		gap: 1rem;
+		margin-top: 1rem;
+	}
+
+	.mode-flow-card {
+		padding: 1rem;
+		border: 1px solid var(--sl-color-gray-5);
+		border-radius: 0.5rem;
+		background: var(--sl-color-bg);
+	}
+
+	h3 { margin: 0; color: var(--sl-color-accent-high); }
+
+	ol {
+		display: grid;
+		gap: 1rem;
+		margin: 1rem 0 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	li {
+		position: relative;
+		display: grid;
+		gap: 0.2rem;
+		padding-left: 2rem;
+	}
+
+	li::before {
+		position: absolute;
+		left: 0;
+		display: grid;
+		place-items: center;
+		width: 1.3rem;
+		height: 1.3rem;
+		border: 1px solid var(--sl-color-accent);
+		border-radius: 999px;
+		color: var(--sl-color-accent-high);
+		font-size: var(--sl-text-xs);
+		content: counter(list-item);
+	}
+
+	li + li::after {
+		position: absolute;
+		left: 0.6rem;
+		top: -0.7rem;
+		width: 1px;
+		height: 0.5rem;
+		background: var(--sl-color-accent);
+		content: '';
+	}
+
+	span { color: var(--sl-color-text); }
+
+	@media (min-width: 50rem) {
+		.mode-flow-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	}
+</style>

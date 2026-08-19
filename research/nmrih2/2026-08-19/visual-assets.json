@@ -1,0 +1,14 @@
+{
+  "assets": [
+    {
+      "id": "asset:nmrih2-hero-atmosphere",
+      "path": "docs/src/assets/nmrih2-hero-atmosphere.webp",
+      "type": "generated_original_illustration",
+      "purpose": "Homepage hero atmosphere only; it does not document game mechanics or gameplay.",
+      "created_at": "2026-08-19",
+      "alt": "Original illustration of three emergency responders walking through a foggy abandoned street at night.",
+      "prompt": "Original atmospheric illustration of three generic emergency responders seen from behind, cautiously walking through a foggy abandoned small-town street at night; cinematic digital painting; deep charcoal green palette with small lime emergency-light accents; no text, logos, UI, recognizable characters, game branding, gore, or game screenshot styling.",
+      "license_status": "generated_original"
+    }
+  ]
+}

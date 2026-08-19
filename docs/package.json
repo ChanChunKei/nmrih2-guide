@@ -1,8 +1,8 @@
 {
-  "name": "starlight-docs",
-  "private": true,
-  "type": "module",
-  "version": "0.0.1",
+	"name": "starlight-docs",
+	"private": true,
+	"type": "module",
+	"version": "0.0.1",
 	"scripts": {
 		"dev": "astro dev",
 		"start": "astro dev",
@@ -14,5 +14,8 @@
 	"dependencies": {
 		"@astrojs/starlight": "workspace:*",
 		"astro": "^7.1.6"
+	},
+	"devDependencies": {
+		"sharp": "^0.35.3"
 	}
 }

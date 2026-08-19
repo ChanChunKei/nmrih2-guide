@@ -1,0 +1,756 @@
+{
+  "game": {
+    "name": "No More Room in Hell 2",
+    "platform_id": "steam:292000",
+    "official_url": "https://www.nmrih2.com/"
+  },
+  "market": "global English",
+  "window_days": 30,
+  "source_statuses": {
+    "google_autocomplete": "yielded",
+    "google_trends": "yielded",
+    "similarweb": "blocked"
+  },
+  "similarweb_available": false,
+  "similarweb_questions_collected": false,
+  "collection_state": {
+    "google_autocomplete": {
+      "status": "yielded",
+      "latest_attempt_status": "yielded",
+      "attempts": 4,
+      "checkpoints": [
+        {
+          "step": "navigate_visible_search",
+          "status": "accessible_no_queries",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:12Z",
+          "tab_url": "https://www.google.com/"
+        },
+        {
+          "step": "read_suggestions",
+          "status": "yielded",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:12Z",
+          "tab_url": "https://www.google.com/",
+          "artifact": "browser-artifacts/google-autocomplete-primary.png"
+        },
+        {
+          "step": "navigate_visible_search",
+          "status": "accessible_no_queries",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:17Z",
+          "tab_url": "https://www.google.com/"
+        },
+        {
+          "step": "read_suggestions",
+          "status": "yielded",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:21Z",
+          "tab_url": "https://www.google.com/",
+          "artifact": "browser-artifacts/google-autocomplete-trends-derived.png"
+        }
+      ],
+      "recovery_url": "https://www.google.com/"
+    },
+    "google_trends": {
+      "status": "yielded",
+      "latest_attempt_status": "yielded",
+      "attempts": 1,
+      "checkpoints": [
+        {
+          "step": "read_related_queries",
+          "status": "yielded",
+          "source_url": "https://trends.google.com/trends/explore?date=today%201-m&q=No%20More%20Room%20in%20Hell%202",
+          "checked_at": "2026-08-19T07:44:17Z",
+          "tab_url": "https://trends.google.com/trends/explore?date=today%201-m&q=No%20More%20Room%20in%20Hell%202",
+          "artifact": "browser-artifacts/google-trends.png"
+        }
+      ],
+      "recovery_url": "https://trends.google.com/trends/explore?date=today%201-m&q=No%20More%20Room%20in%20Hell%202"
+    },
+    "similarweb": {
+      "status": "blocked",
+      "latest_attempt_status": "blocked",
+      "attempts": 1,
+      "checkpoints": [
+        {
+          "step": "open_questions",
+          "status": "blocked",
+          "source_url": "https://secure.similarweb.com/account/login?returnUrl=https%3A%2F%2Fpro.similarweb.com%2F#/digitalsuite/acquisition/keyword/organic/search/999/2026.07-2026.07/overview_2?keyword=No+More+Room+in+Hell+2&tab=0&mtd=false&webSource=Total&graphGranularity=Weekly&graphDuration=1m&graphSourceType=total&keywordIdeasTab=questions",
+          "checked_at": "2026-08-19T07:44:25Z",
+          "tab_url": "https://secure.similarweb.com/account/login?returnUrl=https%3A%2F%2Fpro.similarweb.com%2F#/digitalsuite/acquisition/keyword/organic/search/999/2026.07-2026.07/overview_2?keyword=No+More+Room+in+Hell+2&tab=0&mtd=false&webSource=Total&graphGranularity=Weekly&graphDuration=1m&graphSourceType=total&keywordIdeasTab=questions",
+          "detail": "login_required_or_state_invalid",
+          "artifact": "browser-artifacts/similarweb-login-required.png"
+        }
+      ],
+      "recovery_url": "https://secure.similarweb.com/account/login?returnUrl=https%3A%2F%2Fpro.similarweb.com%2F#/digitalsuite/acquisition/keyword/organic/search/999/2026.07-2026.07/overview_2?keyword=No+More+Room+in+Hell+2&tab=0&mtd=false&webSource=Total&graphGranularity=Weekly&graphDuration=1m&graphSourceType=total&keywordIdeasTab=questions"
+    }
+  },
+  "categories": [
+    {
+      "category": "platform",
+      "keywords": [
+        "no more room in hell 2 console",
+        "no more room in hell 2 ps5",
+        "no more room in hell 2 console crossplay",
+        "no more room in hell 2 ps5 crossplay",
+        "no more room in hell 2 crossplay pc ps5"
+      ]
+    },
+    {
+      "category": "guide",
+      "keywords": [
+        "no more room in hell 2 canada",
+        "no more room in hell 2 crossplay",
+        "no more room in hell 2 maps",
+        "no more room in hell 2 review",
+        "no more room in hell 2 cross platform",
+        "no more room in hell 2 player count",
+        "no more room in hell 2 puerto rico",
+        "no more room in hell 2 release date",
+        "no more room in hell 2 server status",
+        "no more room in hell 2 steam charts",
+        "no more room in hell 2 tem crossplay",
+        "no more room in hell 2 tiene crossplay",
+        "no more room in hell 2 united kingdom",
+        "no more room in hell 2 united states",
+        "does no more room in hell 2 have crossplay",
+        "will no more room in hell 2 be crossplay"
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "no more room in hell 2 console",
+      "merged_variants": [
+        "no more room in hell 2 console"
+      ],
+      "category": "platform",
+      "intent": "availability/compatibility",
+      "page_type": "platform guide",
+      "sources": [
+        {
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:12Z",
+          "region": "IP-derived",
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US",
+          "observed_keyword": "no more room in hell 2 console"
+        }
+      ],
+      "priority": 1111.0,
+      "page_value_score": 75,
+      "evidence_strength": "low",
+      "evidence_flags": [
+        "missing_similarweb_questions"
+      ],
+      "title": "No More Room in Hell 2 Console",
+      "slug": "no-more-room-in-hell-2-console",
+      "launch": true,
+      "launch_rank": 1
+    },
+    {
+      "keyword": "no more room in hell 2 canada",
+      "merged_variants": [
+        "canada"
+      ],
+      "category": "guide",
+      "intent": "how-to/reference",
+      "page_type": "focused guide",
+      "sources": [
+        {
+          "source": "google_trends",
+          "source_url": "https://trends.google.com/trends/explore?date=today%201-m&q=No%20More%20Room%20in%20Hell%202",
+          "checked_at": "2026-08-19T07:44:17Z",
+          "region": "IP-derived",
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US",
+          "observed_keyword": "Canada"
+        }
+      ],
+      "priority": 1107.0,
+      "page_value_score": 55,
+      "evidence_strength": "low",
+      "evidence_flags": [
+        "missing_similarweb_questions"
+      ],
+      "title": "No More Room in Hell 2 Canada",
+      "slug": "no-more-room-in-hell-2-canada",
+      "launch": true,
+      "launch_rank": 2
+    },
+    {
+      "keyword": "no more room in hell 2 ps5",
+      "merged_variants": [
+        "no more room in hell 2 ps5"
+      ],
+      "category": "platform",
+      "intent": "availability/compatibility",
+      "page_type": "platform guide",
+      "sources": [
+        {
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:12Z",
+          "region": "IP-derived",
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US",
+          "observed_keyword": "no more room in hell 2 ps5"
+        }
+      ],
+      "priority": 1111.0,
+      "page_value_score": 75,
+      "evidence_strength": "low",
+      "evidence_flags": [
+        "missing_similarweb_questions"
+      ],
+      "title": "No More Room in Hell 2 Ps5",
+      "slug": "no-more-room-in-hell-2-ps5",
+      "launch": true,
+      "launch_rank": 3
+    },
+    {
+      "keyword": "no more room in hell 2 console crossplay",
+      "merged_variants": [
+        "no more room in hell 2 console crossplay"
+      ],
+      "category": "platform",
+      "intent": "availability/compatibility",
+      "page_type": "platform guide",
+      "sources": [
+        {
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:21Z",
+          "region": "IP-derived",
+          "query_input": "No More Room in Hell 2 crossplay",
+          "locale": "en-US",
+          "observed_keyword": "no more room in hell 2 console crossplay"
+        }
+      ],
+      "priority": 1108.0,
+      "page_value_score": 75,
+      "evidence_strength": "low",
+      "evidence_flags": [
+        "missing_similarweb_questions"
+      ],
+      "title": "No More Room in Hell 2 Console Crossplay",
+      "slug": "no-more-room-in-hell-2-console-crossplay",
+      "launch": true,
+      "launch_rank": 4
+    },
+    {
+      "keyword": "no more room in hell 2 ps5 crossplay",
+      "merged_variants": [
+        "no more room in hell 2 ps5 crossplay"
+      ],
+      "category": "platform",
+      "intent": "availability/compatibility",
+      "page_type": "platform guide",
+      "sources": [
+        {
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:21Z",
+          "region": "IP-derived",
+          "query_input": "No More Room in Hell 2 crossplay",
+          "locale": "en-US",
+          "observed_keyword": "no more room in hell 2 ps5 crossplay"
+        }
+      ],
+      "priority": 1108.0,
+      "page_value_score": 75,
+      "evidence_strength": "low",
+      "evidence_flags": [
+        "missing_similarweb_questions"
+      ],
+      "title": "No More Room in Hell 2 Ps5 Crossplay",
+      "slug": "no-more-room-in-hell-2-ps5-crossplay",
+      "launch": true,
+      "launch_rank": 5
+    },
+    {
+      "keyword": "no more room in hell 2 crossplay",
+      "merged_variants": [
+        "no more room in hell 2 crossplay"
+      ],
+      "category": "guide",
+      "intent": "how-to/reference",
+      "page_type": "focused guide",
+      "sources": [
+        {
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:12Z",
+          "region": "IP-derived",
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US",
+          "observed_keyword": "no more room in hell 2 crossplay"
+        }
+      ],
+      "priority": 1107.0,
+      "page_value_score": 55,
+      "evidence_strength": "low",
+      "evidence_flags": [
+        "missing_similarweb_questions"
+      ],
+      "title": "No More Room in Hell 2 Crossplay",
+      "slug": "no-more-room-in-hell-2-crossplay",
+      "launch": true,
+      "launch_rank": 6
+    },
+    {
+      "keyword": "no more room in hell 2 maps",
+      "merged_variants": [
+        "no more room in hell 2 maps"
+      ],
+      "category": "guide",
+      "intent": "how-to/reference",
+      "page_type": "focused guide",
+      "sources": [
+        {
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:12Z",
+          "region": "IP-derived",
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US",
+          "observed_keyword": "no more room in hell 2 maps"
+        }
+      ],
+      "priority": 1107.0,
+      "page_value_score": 55,
+      "evidence_strength": "low",
+      "evidence_flags": [
+        "missing_similarweb_questions"
+      ],
+      "title": "No More Room in Hell 2 Maps",
+      "slug": "no-more-room-in-hell-2-maps",
+      "launch": true,
+      "launch_rank": 7
+    },
+    {
+      "keyword": "no more room in hell 2 review",
+      "merged_variants": [
+        "no more room in hell 2 review"
+      ],
+      "category": "guide",
+      "intent": "how-to/reference",
+      "page_type": "focused guide",
+      "sources": [
+        {
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:12Z",
+          "region": "IP-derived",
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US",
+          "observed_keyword": "no more room in hell 2 review"
+        }
+      ],
+      "priority": 1107.0,
+      "page_value_score": 55,
+      "evidence_strength": "low",
+      "evidence_flags": [
+        "missing_similarweb_questions"
+      ],
+      "title": "No More Room in Hell 2 Review",
+      "slug": "no-more-room-in-hell-2-review",
+      "launch": true,
+      "launch_rank": 8
+    },
+    {
+      "keyword": "no more room in hell 2 crossplay pc ps5",
+      "merged_variants": [
+        "no more room in hell 2 crossplay pc ps5"
+      ],
+      "category": "platform",
+      "intent": "availability/compatibility",
+      "page_type": "platform guide",
+      "sources": [
+        {
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:21Z",
+          "region": "IP-derived",
+          "query_input": "No More Room in Hell 2 crossplay",
+          "locale": "en-US",
+          "observed_keyword": "no more room in hell 2 crossplay pc ps5"
+        }
+      ],
+      "priority": 1105.0,
+      "page_value_score": 75,
+      "evidence_strength": "low",
+      "evidence_flags": [
+        "missing_similarweb_questions"
+      ],
+      "title": "No More Room in Hell 2 Crossplay Pc Ps5",
+      "slug": "no-more-room-in-hell-2-crossplay-pc-ps5",
+      "launch": true,
+      "launch_rank": 9
+    },
+    {
+      "keyword": "no more room in hell 2 cross platform",
+      "merged_variants": [
+        "no more room in hell 2 cross platform"
+      ],
+      "category": "guide",
+      "intent": "how-to/reference",
+      "page_type": "focused guide",
+      "sources": [
+        {
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:21Z",
+          "region": "IP-derived",
+          "query_input": "No More Room in Hell 2 crossplay",
+          "locale": "en-US",
+          "observed_keyword": "no more room in hell 2 cross platform"
+        }
+      ],
+      "priority": 1104.0,
+      "page_value_score": 55,
+      "evidence_strength": "low",
+      "evidence_flags": [
+        "missing_similarweb_questions"
+      ],
+      "title": "No More Room in Hell 2 Cross Platform",
+      "slug": "no-more-room-in-hell-2-cross-platform",
+      "launch": true,
+      "launch_rank": 10
+    },
+    {
+      "keyword": "no more room in hell 2 player count",
+      "merged_variants": [
+        "no more room in hell 2 player count"
+      ],
+      "category": "guide",
+      "intent": "how-to/reference",
+      "page_type": "focused guide",
+      "sources": [
+        {
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:12Z",
+          "region": "IP-derived",
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US",
+          "observed_keyword": "no more room in hell 2 player count"
+        }
+      ],
+      "priority": 1104.0,
+      "page_value_score": 55,
+      "evidence_strength": "low",
+      "evidence_flags": [
+        "missing_similarweb_questions"
+      ],
+      "title": "No More Room in Hell 2 Player Count",
+      "slug": "no-more-room-in-hell-2-player-count",
+      "launch": true,
+      "launch_rank": 11
+    },
+    {
+      "keyword": "no more room in hell 2 puerto rico",
+      "merged_variants": [
+        "puerto rico"
+      ],
+      "category": "guide",
+      "intent": "how-to/reference",
+      "page_type": "focused guide",
+      "sources": [
+        {
+          "source": "google_trends",
+          "source_url": "https://trends.google.com/trends/explore?date=today%201-m&q=No%20More%20Room%20in%20Hell%202",
+          "checked_at": "2026-08-19T07:44:17Z",
+          "region": "IP-derived",
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US",
+          "observed_keyword": "Puerto Rico"
+        }
+      ],
+      "priority": 1104.0,
+      "page_value_score": 55,
+      "evidence_strength": "low",
+      "evidence_flags": [
+        "missing_similarweb_questions"
+      ],
+      "title": "No More Room in Hell 2 Puerto Rico",
+      "slug": "no-more-room-in-hell-2-puerto-rico",
+      "launch": true,
+      "launch_rank": 12
+    },
+    {
+      "keyword": "no more room in hell 2 release date",
+      "merged_variants": [
+        "no more room in hell 2 release date"
+      ],
+      "category": "guide",
+      "intent": "how-to/reference",
+      "page_type": "focused guide",
+      "sources": [
+        {
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:12Z",
+          "region": "IP-derived",
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US",
+          "observed_keyword": "no more room in hell 2 release date"
+        }
+      ],
+      "priority": 1104.0,
+      "page_value_score": 55,
+      "evidence_strength": "low",
+      "evidence_flags": [
+        "missing_similarweb_questions"
+      ],
+      "title": "No More Room in Hell 2 Release Date",
+      "slug": "no-more-room-in-hell-2-release-date",
+      "launch": true,
+      "launch_rank": 13
+    },
+    {
+      "keyword": "no more room in hell 2 server status",
+      "merged_variants": [
+        "no more room in hell 2 server status"
+      ],
+      "category": "guide",
+      "intent": "how-to/reference",
+      "page_type": "focused guide",
+      "sources": [
+        {
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:12Z",
+          "region": "IP-derived",
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US",
+          "observed_keyword": "no more room in hell 2 server status"
+        }
+      ],
+      "priority": 1104.0,
+      "page_value_score": 55,
+      "evidence_strength": "low",
+      "evidence_flags": [
+        "missing_similarweb_questions"
+      ],
+      "title": "No More Room in Hell 2 Server Status",
+      "slug": "no-more-room-in-hell-2-server-status",
+      "launch": true,
+      "launch_rank": 14
+    },
+    {
+      "keyword": "no more room in hell 2 steam charts",
+      "merged_variants": [
+        "no more room in hell 2 steam charts"
+      ],
+      "category": "guide",
+      "intent": "how-to/reference",
+      "page_type": "focused guide",
+      "sources": [
+        {
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:12Z",
+          "region": "IP-derived",
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US",
+          "observed_keyword": "no more room in hell 2 steam charts"
+        }
+      ],
+      "priority": 1104.0,
+      "page_value_score": 55,
+      "evidence_strength": "low",
+      "evidence_flags": [
+        "missing_similarweb_questions"
+      ],
+      "title": "No More Room in Hell 2 Steam Charts",
+      "slug": "no-more-room-in-hell-2-steam-charts",
+      "launch": true,
+      "launch_rank": 15
+    },
+    {
+      "keyword": "no more room in hell 2 tem crossplay",
+      "merged_variants": [
+        "no more room in hell 2 tem crossplay"
+      ],
+      "category": "guide",
+      "intent": "how-to/reference",
+      "page_type": "focused guide",
+      "sources": [
+        {
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:21Z",
+          "region": "IP-derived",
+          "query_input": "No More Room in Hell 2 crossplay",
+          "locale": "en-US",
+          "observed_keyword": "no more room in hell 2 tem crossplay"
+        }
+      ],
+      "priority": 1104.0,
+      "page_value_score": 55,
+      "evidence_strength": "low",
+      "evidence_flags": [
+        "missing_similarweb_questions"
+      ],
+      "title": "No More Room in Hell 2 Tem Crossplay",
+      "slug": "no-more-room-in-hell-2-tem-crossplay",
+      "launch": true,
+      "launch_rank": 16
+    },
+    {
+      "keyword": "no more room in hell 2 tiene crossplay",
+      "merged_variants": [
+        "no more room in hell 2 tiene crossplay"
+      ],
+      "category": "guide",
+      "intent": "how-to/reference",
+      "page_type": "focused guide",
+      "sources": [
+        {
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:21Z",
+          "region": "IP-derived",
+          "query_input": "No More Room in Hell 2 crossplay",
+          "locale": "en-US",
+          "observed_keyword": "no more room in hell 2 tiene crossplay"
+        }
+      ],
+      "priority": 1104.0,
+      "page_value_score": 55,
+      "evidence_strength": "low",
+      "evidence_flags": [
+        "missing_similarweb_questions"
+      ],
+      "title": "No More Room in Hell 2 Tiene Crossplay",
+      "slug": "no-more-room-in-hell-2-tiene-crossplay",
+      "launch": true,
+      "launch_rank": 17
+    },
+    {
+      "keyword": "no more room in hell 2 united kingdom",
+      "merged_variants": [
+        "united kingdom"
+      ],
+      "category": "guide",
+      "intent": "how-to/reference",
+      "page_type": "focused guide",
+      "sources": [
+        {
+          "source": "google_trends",
+          "source_url": "https://trends.google.com/trends/explore?date=today%201-m&q=No%20More%20Room%20in%20Hell%202",
+          "checked_at": "2026-08-19T07:44:17Z",
+          "region": "IP-derived",
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US",
+          "observed_keyword": "United Kingdom"
+        }
+      ],
+      "priority": 1104.0,
+      "page_value_score": 55,
+      "evidence_strength": "low",
+      "evidence_flags": [
+        "missing_similarweb_questions"
+      ],
+      "title": "No More Room in Hell 2 United Kingdom",
+      "slug": "no-more-room-in-hell-2-united-kingdom",
+      "launch": true,
+      "launch_rank": 18
+    },
+    {
+      "keyword": "no more room in hell 2 united states",
+      "merged_variants": [
+        "united states"
+      ],
+      "category": "guide",
+      "intent": "how-to/reference",
+      "page_type": "focused guide",
+      "sources": [
+        {
+          "source": "google_trends",
+          "source_url": "https://trends.google.com/trends/explore?date=today%201-m&q=No%20More%20Room%20in%20Hell%202",
+          "checked_at": "2026-08-19T07:44:17Z",
+          "region": "IP-derived",
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US",
+          "observed_keyword": "United States"
+        }
+      ],
+      "priority": 1104.0,
+      "page_value_score": 55,
+      "evidence_strength": "low",
+      "evidence_flags": [
+        "missing_similarweb_questions"
+      ],
+      "title": "No More Room in Hell 2 United States",
+      "slug": "no-more-room-in-hell-2-united-states",
+      "launch": true,
+      "launch_rank": 19
+    },
+    {
+      "keyword": "does no more room in hell 2 have crossplay",
+      "merged_variants": [
+        "does no more room in hell 2 have crossplay"
+      ],
+      "category": "guide",
+      "intent": "how-to/reference",
+      "page_type": "focused guide",
+      "sources": [
+        {
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:21Z",
+          "region": "IP-derived",
+          "query_input": "No More Room in Hell 2 crossplay",
+          "locale": "en-US",
+          "observed_keyword": "does no more room in hell 2 have crossplay"
+        }
+      ],
+      "priority": 1083.0,
+      "page_value_score": 55,
+      "evidence_strength": "low",
+      "evidence_flags": [
+        "missing_similarweb_questions"
+      ],
+      "title": "No More Room in Hell 2 Ell 2 Have Crossplay",
+      "slug": "does-no-more-room-in-hell-2-have-crossplay",
+      "launch": true,
+      "launch_rank": 20
+    },
+    {
+      "keyword": "will no more room in hell 2 be crossplay",
+      "merged_variants": [
+        "will no more room in hell 2 be crossplay"
+      ],
+      "category": "guide",
+      "intent": "how-to/reference",
+      "page_type": "focused guide",
+      "sources": [
+        {
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:21Z",
+          "region": "IP-derived",
+          "query_input": "No More Room in Hell 2 crossplay",
+          "locale": "en-US",
+          "observed_keyword": "will no more room in hell 2 be crossplay"
+        }
+      ],
+      "priority": 1083.0,
+      "page_value_score": 55,
+      "evidence_strength": "low",
+      "evidence_flags": [
+        "missing_similarweb_questions"
+      ],
+      "title": "No More Room in Hell 2 Ell 2 Be Crossplay",
+      "slug": "will-no-more-room-in-hell-2-be-crossplay",
+      "launch": false,
+      "launch_rank": null
+    }
+  ],
+  "excluded": [],
+  "gate1_conditions": []
+}

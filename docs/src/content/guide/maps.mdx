@@ -6,17 +6,22 @@ description: Find No More Room in Hell 2 Objective and Survival map guides, unde
 Every map asks the squad to balance route knowledge against the ability to adapt. Start with the guide for your deployment, then adjust when the objective, loot, or team condition changes.
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
+import ModeFlow from '../../components/ModeFlow.astro';
+
+## Objective vs Survival at a glance
+
+<ModeFlow />
 
 <CardGrid>
-  <Card title="Raven Rock" icon="map" href="/maps/raven-rock/">The new Armageddon 1.0 Objective map.</Card>
-  <Card title="Power Plant" icon="map" href="/maps/power-plant/">Route planning, objectives, and extraction habits.</Card>
-  <Card title="Pottsville" icon="map" href="/maps/pottsville/">A focused guide for the urban rescue route.</Card>
-  <Card title="Lewiston" icon="map" href="/maps/lewiston/">Prepare a clear team plan before committing.</Card>
-  <Card title="Broadway" icon="map" href="/maps/broadway/">Stay coordinated under urban pressure.</Card>
-  <Card title="Beaulieu Hospital" icon="map" href="/maps/beaulieu-hospital/">Plan around close spaces and changing objectives.</Card>
-  <Card title="Flooded" icon="map" href="/maps/flooded/">A 1.0 Survival map in a storm-hit industrial complex.</Card>
-  <Card title="Lighthouse" icon="map" href="/maps/lighthouse/">A 1.0 Survival map built around a cliffside beacon.</Card>
-  <Card title="Night of the Living Dead" icon="map" href="/maps/night-of-the-living-dead/">A 1.0 Survival map at an expanded farmhouse.</Card>
+  <a class="guide-card-link" href="/maps/raven-rock/"><Card title="Raven Rock" icon="map">The new Armageddon 1.0 Objective map.</Card></a>
+  <a class="guide-card-link" href="/maps/power-plant/"><Card title="Power Plant" icon="map">Route planning, objectives, and extraction habits.</Card></a>
+  <a class="guide-card-link" href="/maps/pottsville/"><Card title="Pottsville" icon="map">A focused guide for the urban rescue route.</Card></a>
+  <a class="guide-card-link" href="/maps/lewiston/"><Card title="Lewiston" icon="map">Prepare a clear team plan before committing.</Card></a>
+  <a class="guide-card-link" href="/maps/broadway/"><Card title="Broadway" icon="map">Stay coordinated under urban pressure.</Card></a>
+  <a class="guide-card-link" href="/maps/beaulieu-hospital/"><Card title="Beaulieu Hospital" icon="map">Plan around close spaces and changing objectives.</Card></a>
+  <a class="guide-card-link" href="/maps/flooded/"><Card title="Flooded" icon="map">A 1.0 Survival map in a storm-hit industrial complex.</Card></a>
+  <a class="guide-card-link" href="/maps/lighthouse/"><Card title="Lighthouse" icon="map">A 1.0 Survival map built around a cliffside beacon.</Card></a>
+  <a class="guide-card-link" href="/maps/night-of-the-living-dead/"><Card title="Night of the Living Dead" icon="map">A 1.0 Survival map at an expanded farmhouse.</Card></a>
 </CardGrid>
 
 ## Armageddon 1.0 map additions
@@ -45,3 +50,36 @@ Survival maps are **Flooded**, **Lighthouse**, and **Night of the Living Dead**.
 - Say which player carries task items and who watches reload/heal windows.
 - Agree on the condition that ends optional looting: infection, low medical supplies, repeated downs, or a completed objective.
 - Read the map page’s **1.0 changes** section. Fixed routes and loot spots are intentionally omitted until current walkthrough evidence can verify them.
+
+## Shared map rhythm
+
+### Objective: protect the task, then reset
+
+Objective missions are large maps with staged, linear CRC tasks. The dependable pattern is to name the active interactor or carrier, clear only the space needed for that task, then stop after completion to count people and supplies. A new task is not a signal for every player to search independently. [Official launch overview](https://www.nmrih2.com/2026/08/11/welcome-to-no-more-room-in-hell-2/)
+
+Use the live objective log when a scenario differs from a video or memory. This hub records confirmed 1.0 changes on individual pages, but it does not publish fixed item locations, room-by-room routes, or “best” holds without two current independent walkthrough sources.
+
+### Survival: spend the reset before the next wave
+
+The official Survival overview describes a preparation phase, speaker defense, and three-wave structure. After a successful wave, use the brief reset to repair the weakest part of the team plan: low ammunition, a missing lane, an unsafe rotation, or a player who needs to change jobs. A supply drop is strongest when it fixes that shared problem, not when it becomes a private upgrade. [Official Survival overview](https://www.nmrih2.com/2026/07/23/road-to-1-0-survival-night-of-the-living-dead/)
+
+| If this happens | Objective response | Survival response |
+| --- | --- | --- |
+| A player is low on supplies | Stop before the next task and decide whether to continue or extract. | Spend the between-wave reset on the lane or player that would break first. |
+| The route becomes confusing | Regroup, read the current log, and move only on one named call. | Return to the speaker plan and keep a rotation route open. |
+| Infection or repeated downs change the risk | End optional looting and choose the safest viable exit. | Consider the early-extract boundary after two failed waves. |
+
+## Continue with
+
+- Learn the full squad reset loop in the [Beginner Survival Guide](/beginner-guide/).
+- Coordinate risk and treatment in the [Infection Survival Guide](/infection/).
+- Build room for task items and recovery in the [Loadout Planning Guide](/loadouts/).
+- Match ammunition and cover to the next task in the [Weapons and Ammo Guide](/weapons/).
+
+## Sources and version check
+
+**Applies to:** Armageddon 1.0. **Last checked:** August 19, 2026.
+
+- [Armageddon 1.0 update notes](https://www.nmrih2.com/2026/08/10/armageddon-1-0-update-notes/) — Raven Rock, Survival maps, wave/extraction rules, and map changes.
+- [Welcome to No More Room in Hell 2](https://www.nmrih2.com/2026/08/11/welcome-to-no-more-room-in-hell-2/) — Objective/Survival mode framing and extraction outcomes.
+- [Road to 1.0: Survival & Night of the Living Dead](https://www.nmrih2.com/2026/07/23/road-to-1-0-survival-night-of-the-living-dead/) — Survival preparation and map structure.

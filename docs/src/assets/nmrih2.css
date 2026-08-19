@@ -36,6 +36,12 @@
 	backdrop-filter: blur(12px);
 }
 
+[data-has-hero] .hero > img {
+	border: 1px solid rgb(201 241 90 / 28%);
+	border-radius: 0.9rem;
+	box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 35%);
+}
+
 .sl-markdown-content :is(h1, h2, h3) { letter-spacing: -0.025em; }
 .sl-markdown-content a { text-underline-offset: 0.18em; }
 
@@ -45,6 +51,27 @@
 	border: 1px solid rgb(201 241 90 / 35%);
 	border-radius: 0.65rem;
 	background: rgb(201 241 90 / 8%);
+}
+
+.guide-card-link {
+	display: block;
+	color: inherit;
+	text-decoration: none;
+}
+
+.guide-card-link .card {
+	height: 100%;
+	transition: border-color 120ms ease, transform 120ms ease;
+}
+
+.guide-card-link:hover .card {
+	border-color: var(--sl-card-border);
+	transform: translateY(-2px);
+}
+
+.guide-card-link:focus-visible {
+	outline: 2px solid var(--sl-color-accent);
+	outline-offset: 4px;
 }
 
 ::view-transition-old(root) {

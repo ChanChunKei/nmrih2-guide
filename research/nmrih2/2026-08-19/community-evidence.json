@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "game": "No More Room in Hell 2",
+  "checked_at": "2026-08-19T08:45:00Z",
+  "policy": {
+    "officially_confirmed": "Official announcement, update note, or current in-game description.",
+    "community_tested": "Two independent, publicly reachable player sources with compatible version context and a reproducible conclusion.",
+    "community_reported": "One public player source. It may be displayed only as a labelled watchlist item and never as a route recommendation."
+  },
+  "sources": [
+    {
+      "id": "source:official-1-0",
+      "url": "https://www.nmrih2.com/2026/08/10/armageddon-1-0-update-notes/",
+      "title": "Armageddon (1.0) Update Notes",
+      "publisher": "Torn Banner Studios",
+      "source_type": "official_update",
+      "official": true,
+      "access_status": "reachable",
+      "checked_at": "2026-08-19T08:45:00Z",
+      "reuse": "link_only"
+    },
+    {
+      "id": "source:steam-power-plant-pre-1-0",
+      "url": "https://steamcommunity.com/app/292000/discussions/0/596272860832466610/",
+      "title": "Power plant. keep the power going.",
+      "publisher": "Steam Community",
+      "author": "Billy Boogie and discussion participants",
+      "source_type": "community",
+      "official": false,
+      "published_at": "2025-04-21T10:25:00-04:00",
+      "access_status": "reachable",
+      "checked_at": "2026-08-19T08:45:00Z",
+      "reuse": "link_only",
+      "assessment": "Pre-1.0 discussion of an older Power Plant finale. Kept only as a labelled historical player report; not route evidence for Armageddon 1.0."
+    },
+    {
+      "id": "source:community-wiki-survival-conflict",
+      "url": "https://nomoreroominhell2guide.wiki/survival-mode/",
+      "title": "Survival Mode Guide — No More Room in Hell 2",
+      "publisher": "No More Room in Hell 2 Wiki",
+      "source_type": "guide",
+      "official": false,
+      "access_status": "reachable",
+      "checked_at": "2026-08-19T08:45:00Z",
+      "reuse": "reference_only",
+      "assessment": "Excluded: its claims of four Survival maps and no extraction conflict with the official 1.0 rules."
+    }
+  ],
+  "map_audits": [
+    {
+      "slug": "maps/power-plant",
+      "mode": "Objective",
+      "version_scope": "Armageddon 1.0",
+      "status": "community_reported_only",
+      "candidate_claim": "Players reported that an earlier Power Plant finale required repeated power maintenance and code updates.",
+      "source_ids": ["source:steam-power-plant-pre-1-0"],
+      "second_source_id": null,
+      "publication_decision": "Show only as a pre-1.0 Community-reported watchlist note. Do not use it for the current route, scenario order, or objective instructions.",
+      "reproduction_conditions": "Not reproducible against Armageddon 1.0 from this source because the discussion predates the release and does not state a compatible build.",
+      "conflicts": ["Official 1.0 notes changed Power Plant scenarios and removed the Bio-Scanner initial scenario."],
+      "checked_at": "2026-08-19T08:45:00Z"
+    },
+    {
+      "slug": "maps/night-of-the-living-dead",
+      "mode": "Survival",
+      "version_scope": "Armageddon 1.0",
+      "status": "not_ready",
+      "candidate_claim": null,
+      "source_ids": ["source:community-wiki-survival-conflict"],
+      "second_source_id": null,
+      "publication_decision": "Publish no community route, hold point, or rotation guidance. Retain the existing officially sourced property tradeoffs and conservative team advice.",
+      "reproduction_conditions": "Two independent current player sources demonstrating the same area-specific condition are required before publication.",
+      "conflicts": ["The examined community wiki conflicts with official extraction and map-count rules."],
+      "checked_at": "2026-08-19T08:45:00Z"
+    },
+    {
+      "slug": "maps/raven-rock",
+      "mode": "Objective",
+      "version_scope": "Armageddon 1.0",
+      "status": "not_ready",
+      "candidate_claim": null,
+      "source_ids": [],
+      "second_source_id": null,
+      "publication_decision": "Publish no community route or fixed point claim. Retain the existing officially sourced objective-first and bunker-transition guidance.",
+      "reproduction_conditions": "Two independent current player sources with visible or stated Armageddon 1.0 context are required before publication.",
+      "conflicts": [],
+      "checked_at": "2026-08-19T08:45:00Z"
+    }
+  ]
+}

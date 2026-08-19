@@ -1,0 +1,49 @@
+---
+type CommunitySource = {
+	label: string;
+	href: string;
+};
+
+interface Props {
+	status: 'Community-tested' | 'Community-reported';
+	version: string;
+	checked: string;
+	sources: CommunitySource[];
+}
+
+const { status, version, checked, sources } = Astro.props;
+const isReported = status === 'Community-reported';
+---
+
+<aside class:list={['community-evidence', { 'is-reported': isReported }]} aria-label={`${status} evidence`}>
+	<p class="community-evidence__heading"><strong>{status}</strong></p>
+	<p><strong>Applies to:</strong> {version}. <strong>Last checked:</strong> {checked}.</p>
+	<div class="community-evidence__summary"><slot /></div>
+	{isReported && (
+		<p class="community-evidence__warning">This is a player report, not an independently verified route or recommendation.</p>
+	)}
+	<ul>
+		{sources.map((source) => <li><a href={source.href}>{source.label}</a></li>)}
+	</ul>
+</aside>
+
+<style>
+	.community-evidence {
+		margin: 2rem 0;
+		padding: 1rem 1.15rem;
+		border: 1px solid var(--sl-color-accent);
+		border-radius: 0.65rem;
+		background: color-mix(in srgb, var(--sl-color-accent-low) 60%, transparent);
+	}
+
+	.community-evidence.is-reported {
+		border-color: var(--sl-color-gray-4);
+		background: color-mix(in srgb, var(--sl-color-gray-5) 45%, transparent);
+	}
+
+	.community-evidence__heading,
+	.community-evidence > p { margin: 0; }
+	.community-evidence__summary { margin-top: 0.65rem; }
+	.community-evidence__warning { margin-top: 0.65rem; color: var(--sl-color-gray-2); }
+	.community-evidence ul { margin: 0.75rem 0 0; }
+</style>

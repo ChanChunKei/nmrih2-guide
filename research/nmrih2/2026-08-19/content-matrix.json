@@ -1,0 +1,75 @@
+{
+  "game": "No More Room in Hell 2",
+  "market": "global English",
+  "window_days": 30,
+  "checked_at": "2026-08-19",
+  "keyword_sources": {
+    "google_autocomplete": "yielded",
+    "google_trends": "yielded",
+    "similarweb": "blocked"
+  },
+  "existing_coverage": [
+    "beginner-guide",
+    "infection",
+    "weapons",
+    "weapon-attachments",
+    "skills",
+    "loadouts",
+    "maps"
+  ],
+  "publish": [
+    {
+      "slug": "crossplay",
+      "primary_keyword": "no more room in hell 2 crossplay",
+      "observed_keywords": [
+        "no more room in hell 2 crossplay",
+        "no more room in hell 2 console",
+        "no more room in hell 2 ps5",
+        "no more room in hell 2 console crossplay",
+        "no more room in hell 2 cross platform",
+        "does no more room in hell 2 have crossplay"
+      ],
+      "keyword_source": {
+        "type": "google_autocomplete",
+        "url": "https://www.google.com/",
+        "checked_at": "2026-08-19T07:44:12Z",
+        "locale": "en-US",
+        "region": "IP-derived"
+      },
+      "intent": "Confirm crossplay and console availability before a squad plays together.",
+      "version_scope": "Armageddon 1.0; checked 2026-08-19.",
+      "official_sources": [
+        {
+          "url": "https://www.nmrih2.com/2026/04/29/free-weekend-survival-preview-and-35-sale-starts-tomorrow/",
+          "claim": "Torn Banner announced crossplay and PC controller support for 1.0 alongside PlayStation 5 and Xbox Series versions."
+        },
+        {
+          "url": "https://www.nmrih2.com/buy/",
+          "claim": "The current official buy page lists Steam, PlayStation, Xbox, and Epic Game Store."
+        }
+      ],
+      "entrypoints": ["/", "/beginner-guide/"],
+      "outbound_links": ["/beginner-guide/", "/maps/", "/infection/"],
+      "status": "published"
+    }
+  ],
+  "backlog": [
+    {
+      "keywords": ["no more room in hell 2 maps"],
+      "reason": "Already covered by /maps/."
+    },
+    {
+      "keywords": ["no more room in hell 2 release date", "no more room in hell 2 player count", "no more room in hell 2 server status", "no more room in hell 2 steam charts"],
+      "reason": "Time-sensitive lookup intent does not justify a durable guide page without a maintained primary data source."
+    },
+    {
+      "keywords": ["no more room in hell 2 review"],
+      "reason": "Editorial review intent is outside the guide-and-reference scope."
+    },
+    {
+      "keywords": ["Canada", "Puerto Rico", "United Kingdom", "United States"],
+      "reason": "Google Trends related-location rows are not standalone game-specific page queries."
+    }
+  ],
+  "warning": "Similarweb was unavailable because its Questions view required login; no search volume or difficulty was estimated."
+}

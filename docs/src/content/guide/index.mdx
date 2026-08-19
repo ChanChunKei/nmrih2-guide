@@ -7,6 +7,9 @@ lastUpdated: false
 hero:
   title: Survive together.<br/>Get out alive.
   tagline: Clear, current-version guides for No More Room in Hell 2 — from your first deployment to every extraction.
+  image:
+    file: ../../assets/nmrih2-hero-atmosphere.webp
+    alt: Original illustration of three emergency responders walking through a foggy abandoned street at night.
   actions:
     - text: Start with the beginner guide
       icon: right-arrow
@@ -28,10 +31,11 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 ### Choose the guide for your next decision
 
 <CardGrid stagger>
-  <Card title="Beginner Guide" icon="rocket" href="/beginner-guide/">Learn the deployment loop, team habits, looting priorities, and extraction mindset.</Card>
-  <Card title="Weapons" icon="document" href="/weapons/">Build a reliable role around weapon handling, ammunition, and attachments.</Card>
-  <Card title="Infection" icon="warning" href="/infection/">Know what to watch for, how to communicate it, and why a team plan matters.</Card>
-  <Card title="Maps" icon="map" href="/maps/">Find a focused route guide for every current map.</Card>
+  <a class="guide-card-link" href="/beginner-guide/"><Card title="Beginner Guide" icon="rocket">Learn the deployment loop, team habits, looting priorities, and extraction mindset.</Card></a>
+  <a class="guide-card-link" href="/weapons/"><Card title="Weapons" icon="document">Build a reliable role around weapon handling, ammunition, and attachments.</Card></a>
+  <a class="guide-card-link" href="/infection/"><Card title="Infection" icon="warning">Know what to watch for, how to communicate it, and why a team plan matters.</Card></a>
+  <a class="guide-card-link" href="/maps/"><Card title="Maps" icon="map">Find a focused route guide for every current map.</Card></a>
+  <a class="guide-card-link" href="/crossplay/"><Card title="Crossplay & Console" icon="setting">Check supported platforms and what the official 1.0 crossplay announcement confirms.</Card></a>
 </CardGrid>
 
 ## Play with a plan

@@ -32,7 +32,7 @@ export default defineConfig({
 				{
 					label: 'Start Here',
 					translations: { 'zh-cn': '从这里开始' },
-					items: ['beginner-guide', 'infection', 'loadouts', 'skills'],
+					items: ['beginner-guide', 'infection', 'loadouts', 'skills', 'crossplay'],
 				},
 				{
 					label: 'Gear',

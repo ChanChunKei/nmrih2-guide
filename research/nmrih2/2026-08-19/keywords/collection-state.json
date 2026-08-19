@@ -1,0 +1,345 @@
+{
+  "version": 2,
+  "game": {
+    "name": "No More Room in Hell 2",
+    "platform_id": "steam:292000",
+    "official_url": "https://www.nmrih2.com/"
+  },
+  "run": {
+    "market": "global English",
+    "window_days": 30,
+    "checked_at": "2026-08-19T07:44:07Z"
+  },
+  "sources": {
+    "google_autocomplete": {
+      "status": "yielded",
+      "latest_attempt_status": "yielded",
+      "attempts": 4,
+      "checkpoints": [
+        {
+          "step": "navigate_visible_search",
+          "status": "accessible_no_queries",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:12Z",
+          "tab_url": "https://www.google.com/"
+        },
+        {
+          "step": "read_suggestions",
+          "status": "yielded",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:12Z",
+          "tab_url": "https://www.google.com/",
+          "artifact": "browser-artifacts/google-autocomplete-primary.png"
+        },
+        {
+          "step": "navigate_visible_search",
+          "status": "accessible_no_queries",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:17Z",
+          "tab_url": "https://www.google.com/"
+        },
+        {
+          "step": "read_suggestions",
+          "status": "yielded",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:21Z",
+          "tab_url": "https://www.google.com/",
+          "artifact": "browser-artifacts/google-autocomplete-trends-derived.png"
+        }
+      ],
+      "queries": [
+        {
+          "keyword": "no more room in hell 2 crossplay",
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:12Z",
+          "region": "IP-derived",
+          "volume": null,
+          "difficulty": null,
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US"
+        },
+        {
+          "keyword": "no more room in hell 2 ps5",
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:12Z",
+          "region": "IP-derived",
+          "volume": null,
+          "difficulty": null,
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US"
+        },
+        {
+          "keyword": "no more room in hell 2 release date",
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:12Z",
+          "region": "IP-derived",
+          "volume": null,
+          "difficulty": null,
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US"
+        },
+        {
+          "keyword": "no more room in hell 2 review",
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:12Z",
+          "region": "IP-derived",
+          "volume": null,
+          "difficulty": null,
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US"
+        },
+        {
+          "keyword": "no more room in hell 2 player count",
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:12Z",
+          "region": "IP-derived",
+          "volume": null,
+          "difficulty": null,
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US"
+        },
+        {
+          "keyword": "no more room in hell 2 steam charts",
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:12Z",
+          "region": "IP-derived",
+          "volume": null,
+          "difficulty": null,
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US"
+        },
+        {
+          "keyword": "no more room in hell 2 maps",
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:12Z",
+          "region": "IP-derived",
+          "volume": null,
+          "difficulty": null,
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US"
+        },
+        {
+          "keyword": "no more room in hell 2 console",
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:12Z",
+          "region": "IP-derived",
+          "volume": null,
+          "difficulty": null,
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US"
+        },
+        {
+          "keyword": "no more room in hell 2 server status",
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:12Z",
+          "region": "IP-derived",
+          "volume": null,
+          "difficulty": null,
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US"
+        },
+        {
+          "keyword": "no more room in hell 2 crossplay",
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:21Z",
+          "region": "IP-derived",
+          "volume": null,
+          "difficulty": null,
+          "query_input": "No More Room in Hell 2 crossplay",
+          "locale": "en-US"
+        },
+        {
+          "keyword": "no more room in hell 2 crossplay pc ps5",
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:21Z",
+          "region": "IP-derived",
+          "volume": null,
+          "difficulty": null,
+          "query_input": "No More Room in Hell 2 crossplay",
+          "locale": "en-US"
+        },
+        {
+          "keyword": "no more room in hell 2 cross platform",
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:21Z",
+          "region": "IP-derived",
+          "volume": null,
+          "difficulty": null,
+          "query_input": "No More Room in Hell 2 crossplay",
+          "locale": "en-US"
+        },
+        {
+          "keyword": "no more room in hell 2 ps5 crossplay",
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:21Z",
+          "region": "IP-derived",
+          "volume": null,
+          "difficulty": null,
+          "query_input": "No More Room in Hell 2 crossplay",
+          "locale": "en-US"
+        },
+        {
+          "keyword": "no more room in hell 2 console crossplay",
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:21Z",
+          "region": "IP-derived",
+          "volume": null,
+          "difficulty": null,
+          "query_input": "No More Room in Hell 2 crossplay",
+          "locale": "en-US"
+        },
+        {
+          "keyword": "will no more room in hell 2 be crossplay",
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:21Z",
+          "region": "IP-derived",
+          "volume": null,
+          "difficulty": null,
+          "query_input": "No More Room in Hell 2 crossplay",
+          "locale": "en-US"
+        },
+        {
+          "keyword": "does no more room in hell 2 have crossplay",
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:21Z",
+          "region": "IP-derived",
+          "volume": null,
+          "difficulty": null,
+          "query_input": "No More Room in Hell 2 crossplay",
+          "locale": "en-US"
+        },
+        {
+          "keyword": "no more room in hell 2 tem crossplay",
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:21Z",
+          "region": "IP-derived",
+          "volume": null,
+          "difficulty": null,
+          "query_input": "No More Room in Hell 2 crossplay",
+          "locale": "en-US"
+        },
+        {
+          "keyword": "no more room in hell 2 tiene crossplay",
+          "source": "google_autocomplete",
+          "source_url": "https://www.google.com/",
+          "checked_at": "2026-08-19T07:44:21Z",
+          "region": "IP-derived",
+          "volume": null,
+          "difficulty": null,
+          "query_input": "No More Room in Hell 2 crossplay",
+          "locale": "en-US"
+        }
+      ],
+      "recovery_url": "https://www.google.com/"
+    },
+    "google_trends": {
+      "status": "yielded",
+      "latest_attempt_status": "yielded",
+      "attempts": 1,
+      "checkpoints": [
+        {
+          "step": "read_related_queries",
+          "status": "yielded",
+          "source_url": "https://trends.google.com/trends/explore?date=today%201-m&q=No%20More%20Room%20in%20Hell%202",
+          "checked_at": "2026-08-19T07:44:17Z",
+          "tab_url": "https://trends.google.com/trends/explore?date=today%201-m&q=No%20More%20Room%20in%20Hell%202",
+          "artifact": "browser-artifacts/google-trends.png"
+        }
+      ],
+      "queries": [
+        {
+          "keyword": "United States",
+          "source": "google_trends",
+          "source_url": "https://trends.google.com/trends/explore?date=today%201-m&q=No%20More%20Room%20in%20Hell%202",
+          "checked_at": "2026-08-19T07:44:17Z",
+          "region": "IP-derived",
+          "volume": null,
+          "difficulty": null,
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US"
+        },
+        {
+          "keyword": "Puerto Rico",
+          "source": "google_trends",
+          "source_url": "https://trends.google.com/trends/explore?date=today%201-m&q=No%20More%20Room%20in%20Hell%202",
+          "checked_at": "2026-08-19T07:44:17Z",
+          "region": "IP-derived",
+          "volume": null,
+          "difficulty": null,
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US"
+        },
+        {
+          "keyword": "United Kingdom",
+          "source": "google_trends",
+          "source_url": "https://trends.google.com/trends/explore?date=today%201-m&q=No%20More%20Room%20in%20Hell%202",
+          "checked_at": "2026-08-19T07:44:17Z",
+          "region": "IP-derived",
+          "volume": null,
+          "difficulty": null,
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US"
+        },
+        {
+          "keyword": "Canada",
+          "source": "google_trends",
+          "source_url": "https://trends.google.com/trends/explore?date=today%201-m&q=No%20More%20Room%20in%20Hell%202",
+          "checked_at": "2026-08-19T07:44:17Z",
+          "region": "IP-derived",
+          "volume": null,
+          "difficulty": null,
+          "query_input": "No More Room in Hell 2",
+          "locale": "en-US"
+        }
+      ],
+      "recovery_url": "https://trends.google.com/trends/explore?date=today%201-m&q=No%20More%20Room%20in%20Hell%202"
+    },
+    "similarweb": {
+      "status": "blocked",
+      "latest_attempt_status": "blocked",
+      "attempts": 1,
+      "checkpoints": [
+        {
+          "step": "open_questions",
+          "status": "blocked",
+          "source_url": "https://secure.similarweb.com/account/login?returnUrl=https%3A%2F%2Fpro.similarweb.com%2F#/digitalsuite/acquisition/keyword/organic/search/999/2026.07-2026.07/overview_2?keyword=No+More+Room+in+Hell+2&tab=0&mtd=false&webSource=Total&graphGranularity=Weekly&graphDuration=1m&graphSourceType=total&keywordIdeasTab=questions",
+          "checked_at": "2026-08-19T07:44:25Z",
+          "tab_url": "https://secure.similarweb.com/account/login?returnUrl=https%3A%2F%2Fpro.similarweb.com%2F#/digitalsuite/acquisition/keyword/organic/search/999/2026.07-2026.07/overview_2?keyword=No+More+Room+in+Hell+2&tab=0&mtd=false&webSource=Total&graphGranularity=Weekly&graphDuration=1m&graphSourceType=total&keywordIdeasTab=questions",
+          "detail": "login_required_or_state_invalid",
+          "artifact": "browser-artifacts/similarweb-login-required.png"
+        }
+      ],
+      "queries": [],
+      "recovery_url": "https://secure.similarweb.com/account/login?returnUrl=https%3A%2F%2Fpro.similarweb.com%2F#/digitalsuite/acquisition/keyword/organic/search/999/2026.07-2026.07/overview_2?keyword=No+More+Room+in+Hell+2&tab=0&mtd=false&webSource=Total&graphGranularity=Weekly&graphDuration=1m&graphSourceType=total&keywordIdeasTab=questions"
+    }
+  },
+  "browser_runtime": {
+    "mode": "headed",
+    "engine": "playwright-google-chrome",
+    "cdp": {
+      "host": "127.0.0.1",
+      "port": 14020,
+      "endpoint": "http://127.0.0.1:14020",
+      "status": "closed",
+      "updated_at": "2026-08-19T07:44:25Z"
+    },
+    "session_mode": "persistent_profile"
+  }
+}
