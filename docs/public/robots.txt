@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nmrih2guide.com/sitemap-index.xml

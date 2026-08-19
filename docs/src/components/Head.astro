@@ -4,4 +4,13 @@ import { ClientRouter } from 'astro:transitions';
 ---
 
 <DefaultHead />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MR7GQ0MR56"></script>
+<script is:inline>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag('js', new Date());
+	gtag('config', 'G-MR7GQ0MR56');
+</script>
 <ClientRouter />
