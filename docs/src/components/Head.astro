@@ -1,6 +1,12 @@
 ---
 import DefaultHead from '@astrojs/starlight/components/Head.astro';
 import { ClientRouter } from 'astro:transitions';
+
+declare global {
+	interface Window {
+		dataLayer: IArguments[];
+	}
+}
 ---
 
 <DefaultHead />
@@ -8,7 +14,7 @@ import { ClientRouter } from 'astro:transitions';
 <script is:inline>
 	window.dataLayer = window.dataLayer || [];
 	function gtag() {
-		dataLayer.push(arguments);
+		window.dataLayer.push(arguments);
 	}
 	gtag('js', new Date());
 	gtag('config', 'G-MR7GQ0MR56');
