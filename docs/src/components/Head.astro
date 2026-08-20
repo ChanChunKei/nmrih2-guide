@@ -2,6 +2,60 @@
 import DefaultHead from '@astrojs/starlight/components/Head.astro';
 import { ClientRouter } from 'astro:transitions';
 
+const { entry, lang } = Astro.locals.starlightRoute;
+const siteUrl = 'https://nmrih2guide.com/';
+const pageUrl = new URL(Astro.url.pathname, siteUrl).toString();
+const organizationId = `${siteUrl}#organization`;
+const websiteId = `${siteUrl}#website`;
+const author = entry.data.author || 'NMRiH2 Guide Editorial Team';
+const description = entry.data.description || 'Practical, up-to-date guides for No More Room in Hell 2.';
+const formatDate = (date: Date | undefined) => date?.toISOString().slice(0, 10);
+const datePublished = formatDate(entry.data.datePublished);
+const dateModified = formatDate(entry.data.dateModified);
+
+const graph: Record<string, unknown>[] = [
+	{
+		'@type': 'WebSite',
+		'@id': websiteId,
+		url: siteUrl,
+		name: 'NMRiH2 Guide',
+		description: 'Practical, up-to-date guides for No More Room in Hell 2.',
+		publisher: { '@id': organizationId },
+	},
+	{
+		'@type': 'Organization',
+		'@id': organizationId,
+		name: 'NMRiH2 Guide Editorial Team',
+		url: siteUrl,
+		sameAs: ['https://github.com/ChanChunKei/nmrih2-guide'],
+	},
+	{
+		'@type': 'WebPage',
+		'@id': `${pageUrl}#webpage`,
+		url: pageUrl,
+		name: entry.data.title,
+		description,
+		inLanguage: lang,
+		isPartOf: { '@id': websiteId },
+	},
+];
+
+if (lang === 'en' && entry.data.article && datePublished && dateModified) {
+	graph.push({
+		'@type': 'Article',
+		'@id': `${pageUrl}#article`,
+		headline: entry.data.title,
+		description,
+		datePublished,
+		dateModified,
+		author: { '@type': 'Organization', name: author },
+		publisher: { '@id': organizationId },
+		mainEntityOfPage: { '@id': `${pageUrl}#webpage` },
+	});
+}
+
+const structuredData = JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }).replace(/</g, '\\u003c');
+
 declare global {
 	interface Window {
 		dataLayer: IArguments[];
@@ -10,6 +64,7 @@ declare global {
 ---
 
 <DefaultHead />
+<script type="application/ld+json" set:html={structuredData}></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MR7GQ0MR56"></script>
 <script is:inline>
 	window.dataLayer = window.dataLayer || [];

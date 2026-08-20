@@ -1,0 +1,63 @@
+---
+import LastUpdated from 'virtual:starlight/components/LastUpdated';
+import Pagination from 'virtual:starlight/components/Pagination';
+
+const { entry } = Astro.locals.starlightRoute;
+const author = entry.data.author || 'NMRiH2 Guide Editorial Team';
+---
+
+<footer class="site-footer">
+	<div class="meta sl-flex">
+		<p>Written and reviewed by {author}.</p>
+		<LastUpdated />
+	</div>
+	<div class="site-links">
+		<p>Independent fan guide. Not affiliated with Torn Banner Studios or Lever Games.</p>
+		<nav aria-label="Site information">
+			<a href="/about/">About</a>
+			<a href="/contact/">Contact</a>
+			<a href="/privacy/">Privacy</a>
+			<a href="/terms/">Terms</a>
+		</nav>
+	</div>
+	<Pagination />
+</footer>
+
+<style>
+	@layer starlight.core {
+		.site-footer {
+			display: flex;
+			flex-direction: column;
+			gap: 1.5rem;
+		}
+
+		.meta,
+		.site-links {
+			gap: 0.75rem 2rem;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			font-size: var(--sl-text-sm);
+			color: var(--sl-color-gray-3);
+		}
+
+		.meta {
+			display: flex;
+			margin-top: 3rem;
+		}
+
+		.site-links {
+			border-top: 1px solid var(--sl-color-gray-5);
+			padding-top: 1rem;
+		}
+
+		.site-links p {
+			margin: 0;
+		}
+
+		nav {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.75rem 1rem;
+		}
+	}
+</style>

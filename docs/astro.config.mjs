@@ -10,7 +10,7 @@ export default defineConfig({
 			title: 'NMRiH2 Guide',
 			description: 'Practical, up-to-date guides for No More Room in Hell 2.',
 			favicon: '/favicon.svg',
-			lastUpdated: false,
+			lastUpdated: true,
 			locales: {
 				root: { label: 'English', lang: 'en' },
 				'zh-cn': { label: '简体中文', lang: 'zh-CN' },
@@ -27,7 +27,10 @@ export default defineConfig({
 				{ tag: 'meta', attrs: { property: 'og:site_name', content: 'NMRiH2 Guide' } },
 			],
 			customCss: ['./src/assets/nmrih2.css'],
-			components: { Head: './src/components/Head.astro' },
+			components: {
+				Head: './src/components/Head.astro',
+				Footer: './src/components/Footer.astro',
+			},
 			sidebar: [
 				{
 					label: 'Start Here',

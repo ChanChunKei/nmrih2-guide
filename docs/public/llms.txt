@@ -1,0 +1,20 @@
+# NMRiH2 Guide
+
+> An independent, evidence-first guide to No More Room in Hell 2 for English-speaking players.
+
+NMRiH2 Guide explains current-version game systems, squad decisions, equipment, and maps. Official release notes and game descriptions are the primary source for mechanics. Community-tested advice is clearly labeled and requires independent, current sources before it is recommended.
+
+## Core guides
+
+- [Start here](https://nmrih2guide.com/)
+- [Beginner survival guide](https://nmrih2guide.com/beginner-guide/)
+- [Infection survival guide](https://nmrih2guide.com/infection/)
+- [Weapons and ammo guide](https://nmrih2guide.com/weapons/)
+- [Loadout planning guide](https://nmrih2guide.com/loadouts/)
+- [Objective and Survival maps guide](https://nmrih2guide.com/maps/)
+
+## Site information
+
+- [Editorial standards](https://nmrih2guide.com/about/)
+- [Contact and corrections](https://nmrih2guide.com/contact/)
+- [XML sitemap](https://nmrih2guide.com/sitemap-index.xml)
