@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "game": "No More Room in Hell 2",
+  "market": "global English",
+  "checked_at": "2026-08-22T00:00:00+08:00",
+  "search_collection": {
+    "status": "blocked",
+    "reason": "Chrome remote debugging is not enabled, so fresh Google autocomplete, Trends, and source-page checks could not be collected.",
+    "previous_data": "2026-08-19 keyword collection covered crossplay queries only and does not validate these six candidates."
+  },
+  "evidence_policy": {
+    "official_fact": "One reachable current official source.",
+    "community_tested": "Two independent, public, version-compatible player sources.",
+    "tier_list": "Opinion consensus from two independent recent sources plus current official mechanics; never presented as objective fact."
+  },
+  "candidates": [
+    {
+      "slug": "early-extraction",
+      "keyword_candidates": [
+        "no more room in hell 2 early extraction",
+        "nmrih2 early extract",
+        "how to extract in no more room in hell 2",
+        "no more room in hell 2 final extraction"
+      ],
+      "intent": "Understand when to leave and how early and final extraction differ.",
+      "existing_coverage": ["/beginner-guide/", "/infection/", "/maps/"],
+      "official_source_urls": ["https://www.nmrih2.com/2026/08/11/welcome-to-no-more-room-in-hell-2/"],
+      "known_version_scope": "Armageddon 1.0, checked 2026-08-19.",
+      "evidence_status": "official_facts_partial",
+      "publication_decision": "hold_for_search_evidence",
+      "reason": "Current official extraction outcomes are already cited, but fresh search-demand evidence and a current source recheck are required before splitting a page.",
+      "planned_internal_links": ["/beginner-guide/", "/infection/", "/maps/"]
+    },
+    {
+      "slug": "solo-mode",
+      "keyword_candidates": [
+        "no more room in hell 2 solo",
+        "nmrih2 solo mode",
+        "can you play no more room in hell 2 solo",
+        "no more room in hell 2 single player"
+      ],
+      "intent": "Confirm whether Solo Mode is available and what it is useful for.",
+      "existing_coverage": ["/beginner-guide/", "/weapon-attachments/"],
+      "official_source_urls": ["https://www.nmrih2.com/2026/08/10/armageddon-1-0-update-notes/"],
+      "known_version_scope": "Armageddon 1.0, checked 2026-08-19.",
+      "evidence_status": "official_facts_partial",
+      "publication_decision": "hold_for_search_evidence",
+      "reason": "The current guide confirms Solo Mode as a low-risk practice context, but needs fresh search evidence and current official confirmation of any progression or permadeath details.",
+      "planned_internal_links": ["/beginner-guide/", "/skills/", "/maps/"]
+    },
+    {
+      "slug": "best-weapons",
+      "keyword_candidates": [
+        "no more room in hell 2 best weapons",
+        "nmrih2 weapon tier list",
+        "best gun nmrih2",
+        "best melee weapon nmrih2"
+      ],
+      "intent": "Choose a weapon for a current-version role or mode.",
+      "existing_coverage": ["/weapons/", "/weapon-attachments/", "/loadouts/"],
+      "official_source_urls": ["https://www.nmrih2.com/2025/02/18/our-february-nightmare-update-is-live/"],
+      "known_version_scope": "Current weapon roster, values, and balance not yet rechecked.",
+      "evidence_status": "insufficient",
+      "publication_decision": "hold_for_evidence",
+      "reason": "No current official weapon data and no two-source current player consensus support a tier list. Existing role-first guide remains the correct public answer.",
+      "planned_internal_links": ["/weapons/", "/weapon-attachments/", "/loadouts/"]
+    },
+    {
+      "slug": "best-perks",
+      "keyword_candidates": [
+        "no more room in hell 2 best perks",
+        "nmrih2 perks",
+        "nmrih2 skill tier list",
+        "best skills nmrih2"
+      ],
+      "intent": "Choose current skills for a squad role.",
+      "existing_coverage": ["/skills/", "/loadouts/", "/weapons/"],
+      "official_source_urls": ["https://www.nmrih2.com/2026/08/10/armageddon-1-0-update-notes/"],
+      "known_version_scope": "Armageddon 1.0 additions and removals are known; current effects and rankings are not verified.",
+      "evidence_status": "insufficient",
+      "publication_decision": "hold_for_evidence",
+      "reason": "The existing Skills hub correctly avoids unverified rankings. A tier list needs current effect data and two independent recent player sources.",
+      "planned_internal_links": ["/skills/", "/loadouts/", "/weapons/"]
+    },
+    {
+      "slug": "professions",
+      "keyword_candidates": [
+        "no more room in hell 2 professions",
+        "nmrih2 professions",
+        "nmrih2 characters",
+        "best profession nmrih2"
+      ],
+      "intent": "Understand Responder professions and any starting conditions they provide.",
+      "existing_coverage": ["/skills/", "/beginner-guide/", "/loadouts/"],
+      "official_source_urls": [],
+      "known_version_scope": "No current profession list or starting-condition source has been verified.",
+      "evidence_status": "blocked",
+      "publication_decision": "hold_for_evidence",
+      "reason": "Neither a complete current profession roster nor its mechanics are verified. No profession or reroll recommendation can be published.",
+      "planned_internal_links": ["/skills/", "/beginner-guide/", "/loadouts/"]
+    },
+    {
+      "slug": "difficulty",
+      "keyword_candidates": [
+        "no more room in hell 2 difficulty",
+        "nmrih2 nightmare",
+        "nmrih2 hard mode",
+        "no more room in hell 2 nightmare mode"
+      ],
+      "intent": "Choose a difficulty and understand the current rule differences.",
+      "existing_coverage": ["/beginner-guide/", "/maps/", "/infection/"],
+      "official_source_urls": ["https://www.nmrih2.com/2025/02/18/our-february-nightmare-update-is-live/"],
+      "known_version_scope": "Historical Nightmare update exists; current difficulty rules and values are not verified.",
+      "evidence_status": "insufficient",
+      "publication_decision": "hold_for_evidence",
+      "reason": "Do not publish zombie, reward, supply, or permadeath comparisons until current official material confirms each claimed difference.",
+      "planned_internal_links": ["/beginner-guide/", "/maps/", "/infection/"]
+    }
+  ],
+  "map_audit_continuation": [
+    {"slug": "maps/power-plant", "status": "community_reported_only"},
+    {"slug": "maps/night-of-the-living-dead", "status": "not_ready"},
+    {"slug": "maps/raven-rock", "status": "not_ready"}
+  ]
+}

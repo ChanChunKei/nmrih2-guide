@@ -5,6 +5,8 @@
 	"description": "",
 	"scripts": {
 		"dev": "pnpm --filter starlight-docs dev",
+		"evidence:validate": "node scripts/validate-evidence-ledger.mjs",
+		"evidence:report": "node scripts/render-evidence-ledger.mjs",
 		"lint": "eslint . --max-warnings 0",
 		"format": "prettier -w --cache --plugin prettier-plugin-astro .",
 		"typecheck": "astro check --minimumSeverity warning --noSync && pnpm --filter starlight-docs typecheck"

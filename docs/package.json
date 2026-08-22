@@ -4,9 +4,12 @@
 	"type": "module",
 	"version": "0.0.1",
 	"scripts": {
+		"predev": "node ../scripts/validate-evidence-ledger.mjs",
+		"prebuild": "node ../scripts/validate-evidence-ledger.mjs",
 		"dev": "astro dev",
 		"start": "astro dev",
 		"build": "astro build && node scripts/copy-sitemap.mjs",
+		"pretypecheck": "node ../scripts/validate-evidence-ledger.mjs",
 		"preview": "astro preview",
 		"typecheck": "tsc --noEmit",
 		"astro": "astro"

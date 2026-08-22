@@ -1,0 +1,157 @@
+---
+import { loadPublicEvidence } from '../lib/evidence';
+
+const evidence = await loadPublicEvidence();
+const dateFormat = new Intl.DateTimeFormat('en', { dateStyle: 'long', timeZone: 'UTC' });
+const formatDate = (value: string) => dateFormat.format(new Date(value));
+const statusLabel = (status: 'officially_confirmed' | 'community_tested' | 'pending_recheck') => {
+	if (status === 'officially_confirmed') return 'Officially confirmed';
+	if (status === 'community_tested') return 'Community-tested';
+	return 'Pending recheck';
+};
+---
+
+<section class="evidence-summary" aria-labelledby="published-evidence">
+	<h2 id="published-evidence">Published evidence records</h2>
+	<p>
+		These are the current, published claims that meet the site’s evidence threshold. Source links lead to the original
+		material; summaries here are deliberately brief.
+	</p>
+	<div class="evidence-list">
+		{
+			evidence.current.map((claim) => (
+				<article class="evidence-record">
+					<p class:list={['evidence-status', claim.status]}>{statusLabel(claim.status)}</p>
+					<h3>{claim.statement}</h3>
+					<p class="evidence-meta">
+						<strong>Version scope:</strong> {claim.versionScope}
+						<br />
+						<strong>Last checked:</strong> {formatDate(claim.lastChecked)}
+					</p>
+					<p>
+						<strong>Sources:</strong>{' '}
+						{claim.sources.map((source, index) => (
+							<>
+								{index > 0 && ' · '}
+								<a href={source.url}>{source.title}</a>
+							</>
+						))}
+					</p>
+					<p>
+						<strong>Used in:</strong>{' '}
+						{claim.usedBy.map((page, index) => (
+							<>
+								{index > 0 && ' · '}
+								<a href={page.url}>{page.title}</a>
+							</>
+						))}
+					</p>
+				</article>
+			))
+		}
+	</div>
+</section>
+
+<section class="evidence-summary pending" aria-labelledby="pending-evidence">
+	<h2 id="pending-evidence">Published claims awaiting recheck</h2>
+	<p>
+		These claims remain visible on a current guide, but their version-sensitive evidence is due for review. They are not
+		used as support for new recommendations until the record is renewed or the guide is qualified.
+	</p>
+	{
+		evidence.pendingReview.length === 0 ? (
+			<p class="evidence-empty">No published claims are currently awaiting review.</p>
+		) : (
+			<div class="evidence-list">
+				{evidence.pendingReview.map((claim) => (
+					<article class="evidence-record">
+						<p class="evidence-status pending-recheck">Pending recheck</p>
+						<h3>{claim.statement}</h3>
+						<p class="evidence-meta">
+							<strong>Version scope:</strong> {claim.versionScope}
+							<br />
+							<strong>Last checked:</strong> {formatDate(claim.lastChecked)} · <strong>Review due:</strong>{' '}
+							{formatDate(claim.nextReviewAt)}
+						</p>
+						<p>
+							<strong>Sources:</strong>{' '}
+							{claim.sources.map((source, index) => (
+								<>
+									{index > 0 && ' · '}
+									<a href={source.url}>{source.title}</a>
+								</>
+							))}
+						</p>
+						<p>
+							<strong>Used in:</strong>{' '}
+							{claim.usedBy.map((page, index) => (
+								<>
+									{index > 0 && ' · '}
+									<a href={page.url}>{page.title}</a>
+								</>
+							))}
+						</p>
+					</article>
+				))}
+			</div>
+		)
+	}
+</section>
+
+<style>
+	.evidence-summary {
+		margin-block: 2.5rem;
+	}
+
+	.evidence-list {
+		display: grid;
+		gap: 1rem;
+	}
+
+	.evidence-record {
+		border: 1px solid var(--sl-color-gray-5);
+		border-left: 3px solid var(--sl-color-accent);
+		border-radius: 0.5rem;
+		padding: 1rem 1.125rem;
+		background: color-mix(in srgb, var(--sl-color-gray-6) 40%, transparent);
+	}
+
+	.evidence-record h3 {
+		margin-block: 0.25rem 0.75rem;
+		font-size: var(--sl-text-lg);
+	}
+
+	.evidence-record p {
+		margin-block: 0.65rem;
+	}
+
+	.evidence-meta,
+	.evidence-empty {
+		color: var(--sl-color-gray-3);
+		font-size: var(--sl-text-sm);
+	}
+
+	.evidence-status {
+		display: inline-block;
+		margin: 0;
+		padding: 0.15rem 0.55rem;
+		border-radius: 999px;
+		font-size: var(--sl-text-xs);
+		font-weight: 700;
+		line-height: 1.3;
+		background: color-mix(in srgb, var(--sl-color-accent) 22%, transparent);
+		color: var(--sl-color-white);
+	}
+
+	.evidence-status.community_tested {
+		background: color-mix(in srgb, #4b9cff 45%, transparent);
+	}
+
+	.evidence-status.pending-recheck {
+		background: color-mix(in srgb, #d89500 50%, transparent);
+	}
+
+	.pending .evidence-record {
+		border-left-color: #d89500;
+	}
+</style>
